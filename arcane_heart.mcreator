@@ -1,0 +1,156 @@
+{
+  "mod_elements": [
+    {
+      "name": "ArcaneManaDrop",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcane_mana_drop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/item/ArcaneManaDropItem.java",
+          "src/main/resources/assets/arcane_heart/models/item/arcane_mana_drop.json"
+        ]
+      }
+    },
+    {
+      "name": "ArcaneHeart",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcane_heart",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "BowlOfArcaneMana",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bowl_of_arcane_mana",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/arcane_heart/models/item/bowl_of_arcane_mana.json",
+          "src/main/java/net/mcreator/arcaneheart/item/BowlOfArcaneManaItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BottledArcaneMana",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottled_arcane_mana",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/arcane_heart/models/item/bottled_arcane_mana.json",
+          "src/main/java/net/mcreator/arcaneheart/item/BottledArcaneManaItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ArcaneMana",
+      "type": "fluid",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcane_mana",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/arcane_heart/models/block/arcane_mana.json",
+          "src/main/java/net/mcreator/arcaneheart/fluid/types/ArcaneManaFluidType.java",
+          "src/main/resources/assets/arcane_heart/blockstates/arcane_mana.json",
+          "src/main/java/net/mcreator/arcaneheart/fluid/ArcaneManaFluid.java",
+          "src/main/java/net/mcreator/arcaneheart/item/ArcaneManaItem.java",
+          "src/main/java/net/mcreator/arcaneheart/block/ArcaneManaBlock.java",
+          "src/main/resources/assets/arcane_heart/models/item/arcane_mana_bucket.json"
+        ]
+      }
+    },
+    {
+      "name": "BiggerBottle",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigger_bottle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/item/BiggerBottleItem.java",
+          "src/main/resources/assets/arcane_heart/models/item/bigger_bottle.json"
+        ]
+      }
+    },
+    {
+      "name": "BottledArcaneManaRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottled_arcane_mana_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/recipes/brewing/BottledArcaneManaRecipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "ArcaneDropsLootTable",
+      "type": "loottable",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcane_drops_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcane_heart/loot_tables/entities/enderman.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.arcane_heart.arcane_mana_bucket": "Arcane Mana Bucket",
+      "item.arcane_heart.bowl_of_arcane_mana": "Bowl Of Arcane Mana",
+      "block.arcane_heart.arcane_mana": "Arcane Mana",
+      "fluid.arcane_heart.arcane_mana": "Arcane Mana",
+      "item.arcane_heart.bigger_bottle": "Bigger Bottle",
+      "item_group.arcane_heart.arcane_heart": "Arcane Heart",
+      "item.arcane_heart.bottled_arcane_mana": "Bottled Arcane Mana",
+      "item.arcane_heart.arcane_mana_drop": "Arcane Mana Drop"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "arcane_heart",
+    "modName": "Arcane Heart",
+    "version": "1.0.0",
+    "author": "OracleOfDarkness, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "arcaneheart",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "mcreator_link"
+    ],
+    "currentGenerator": "forge-1.19.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.arcaneheart",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}
