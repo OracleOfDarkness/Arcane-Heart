@@ -193,6 +193,20 @@
         ]
       },
       "path": "~/Arcane"
+    },
+    {
+      "name": "ArcaneManaPotion",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcane_mana_potion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/recipes/brewing/ArcaneManaPotionBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
