@@ -655,7 +655,7 @@
           }
         ]
       },
-      "path": "~/Proceedures"
+      "path": "~/Procedures"
     },
     {
       "name": "DirtSpellpageItemRightclicked",
@@ -683,7 +683,7 @@
           }
         ]
       },
-      "path": "~/Proceedures"
+      "path": "~/Procedures"
     },
     {
       "name": "StoneSpellpageItemRightclicked",
@@ -711,7 +711,7 @@
           }
         ]
       },
-      "path": "~/Proceedures"
+      "path": "~/Procedures"
     },
     {
       "name": "SandstoneSpellpageItemRightclicked",
@@ -739,7 +739,7 @@
           }
         ]
       },
-      "path": "~/Proceedures"
+      "path": "~/Procedures"
     },
     {
       "name": "GravelSpellpageItemRightclicked",
@@ -767,7 +767,7 @@
           }
         ]
       },
-      "path": "~/Proceedures"
+      "path": "~/Procedures"
     },
     {
       "name": "SandSpellpageItemRightclicked",
@@ -795,7 +795,7 @@
           }
         ]
       },
-      "path": "~/Proceedures"
+      "path": "~/Procedures"
     },
     {
       "name": "AirManaPotionRecipe",
@@ -915,7 +915,7 @@
           }
         ]
       },
-      "path": "~/Proceedures"
+      "path": "~/Procedures"
     },
     {
       "name": "MortarPestle",
@@ -1068,8 +1068,8 @@
       "item.arcane_heart.cobble_spellpage_item": "Cobble Spellpage",
       "item.arcane_heart.bigger_bottle": "Empty Bottle",
       "item.arcane_heart.gravel_spellpage_item": "Gravel Spellpage",
-      "painting.arcane_heart.earth_painting.title": "Earth Painting",
       "item.arcane_heart.stone_spellpage_item": "Stone Spellpage",
+      "painting.arcane_heart.earth_painting.title": "Earth Painting",
       "item.arcane_heart.order_mana_drop": "Conflux Of Order",
       "item.arcane_heart.entropy_mana_potion": "Tear of Entropy Potion",
       "item.arcane_heart.water_mana_potion": "Droplet of Water Potion",
@@ -1079,14 +1079,14 @@
       "item.arcane_heart.arcane_mana_drop": "Heart of Mana",
       "painting.arcane_heart.arcane_painting.title": "Arcane Painting",
       "item.arcane_heart.light_spellpage_item": "Light Spellpage",
-      "painting.arcane_heart.entropy_painting.author": "SuperBenji",
       "item.arcane_heart.sandstone_spellpage_item": "Sandstone Spellpage",
+      "painting.arcane_heart.entropy_painting.author": "SuperBenji",
       "gui.arcane_heart.spellbook_gui.Search": "Search",
       "block.arcane_heart.arcane_mana": "Arcane Mana",
       "painting.arcane_heart.air_painting.title": "Air Painting",
       "item.arcane_heart.order_mana_potion": "Conflux of Order Potion",
-      "painting.arcane_heart.fire_painting.title": "Fire Painting",
       "painting.arcane_heart.water_painting.author": "SuperBenji",
+      "painting.arcane_heart.fire_painting.title": "Fire Painting",
       "painting.arcane_heart.order_painting.author": "SuperBenji",
       "item.arcane_heart.fire_mana_drop": "Ember Of Fire",
       "item.arcane_heart.fire_mana_potion": "Ember of Fire Potion",
@@ -1176,7 +1176,7 @@
         "children": []
       },
       {
-        "name": "Proceedures",
+        "name": "Procedures",
         "children": []
       },
       {
