@@ -162,6 +162,51 @@
         ]
       },
       "path": "~/Mana Drops"
+    },
+    {
+      "name": "AirManaDrop",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "air_mana_drop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/item/AirManaDropItem.java",
+          "src/main/resources/assets/arcane_heart/models/item/air_mana_drop.json"
+        ]
+      },
+      "path": "~/Mana Drops"
+    },
+    {
+      "name": "EntropyManaDrop",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entropy_mana_drop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/item/EntropyManaDropItem.java",
+          "src/main/resources/assets/arcane_heart/models/item/entropy_mana_drop.json"
+        ]
+      },
+      "path": "~/Mana Drops"
+    },
+    {
+      "name": "OrderManaDrop",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "order_mana_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/arcane_heart/models/item/order_mana_drop.json",
+          "src/main/java/net/mcreator/arcaneheart/item/OrderManaDropItem.java"
+        ]
+      },
+      "path": "~/Mana Drops"
     }
   ],
   "variable_elements": [],
@@ -169,15 +214,18 @@
   "language_map": {
     "en_us": {
       "item.arcane_heart.arcane_mana_bucket": "Arcane Mana Bucket",
-      "item.arcane_heart.bowl_of_arcane_mana": "Bowl Of Arcane Mana",
-      "item.arcane_heart.water_mana_drop": "Water Mana Drop",
       "block.arcane_heart.arcane_mana": "Arcane Mana",
-      "fluid.arcane_heart.arcane_mana": "Arcane Mana",
       "item.arcane_heart.bigger_bottle": "Bigger Bottle",
       "item_group.arcane_heart.arcane_heart": "Arcane Heart",
+      "item.arcane_heart.order_mana_drop": "Order Mana Drop",
+      "item.arcane_heart.bowl_of_arcane_mana": "Bowl Of Arcane Mana",
+      "item.arcane_heart.water_mana_drop": "Water Mana Drop",
+      "fluid.arcane_heart.arcane_mana": "Arcane Mana",
+      "item.arcane_heart.entropy_mana_drop": "Entropy Mana Drop",
       "item.arcane_heart.bottled_arcane_mana": "Bottled Arcane Mana",
       "item.arcane_heart.arcane_mana_drop": "Arcane Mana Drop",
       "item.arcane_heart.fire_mana_drop": "Fire Mana Drop",
+      "item.arcane_heart.air_mana_drop": "Air Mana Drop",
       "item.arcane_heart.earth_mana_drop": "Earth Mana Drop"
     }
   },

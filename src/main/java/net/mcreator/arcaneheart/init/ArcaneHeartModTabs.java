@@ -34,6 +34,9 @@ public class ArcaneHeartModTabs {
 					tabData.accept(ArcaneHeartModItems.EARTH_MANA_DROP.get());
 					tabData.accept(ArcaneHeartModItems.WATER_MANA_DROP.get());
 					tabData.accept(ArcaneHeartModItems.FIRE_MANA_DROP.get());
+					tabData.accept(ArcaneHeartModItems.AIR_MANA_DROP.get());
+					tabData.accept(ArcaneHeartModItems.ENTROPY_MANA_DROP.get());
+					tabData.accept(ArcaneHeartModItems.ORDER_MANA_DROP.get());
 				})
 
 		);
