@@ -111,6 +111,19 @@
           "src/main/resources/data/arcane_heart/loot_tables/entities/enderman.json"
         ]
       }
+    },
+    {
+      "name": "BiggerBottleRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bigger_bottle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcane_heart/recipes/bigger_bottle_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],

@@ -57,6 +57,7 @@ public class ArcaneHeartMod {
 
 		ArcaneHeartModFluids.REGISTRY.register(bus);
 		ArcaneHeartModFluidTypes.REGISTRY.register(bus);
+
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
