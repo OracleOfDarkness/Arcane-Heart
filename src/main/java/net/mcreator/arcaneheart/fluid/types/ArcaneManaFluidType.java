@@ -20,7 +20,7 @@ public class ArcaneManaFluidType extends FluidType {
 	@Override
 	public void initializeClient(Consumer<IClientFluidTypeExtensions> consumer) {
 		consumer.accept(new IClientFluidTypeExtensions() {
-			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("arcane_heart:block/arcane_fluid"), FLOWING_TEXTURE = new ResourceLocation("arcane_heart:block/arcane_fluid_flowing");
+			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("arcane_heart:block/arcane_fluid_test"), FLOWING_TEXTURE = new ResourceLocation("arcane_heart:block/arcane_fluid_test");
 
 			@Override
 			public ResourceLocation getStillTexture() {

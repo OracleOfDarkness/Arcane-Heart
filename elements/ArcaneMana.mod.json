@@ -4,8 +4,8 @@
   "definition": {
     "name": "Arcane Mana",
     "bucketName": "Arcane Mana Bucket",
-    "textureStill": "arcane_fluid",
-    "textureFlowing": "arcane_fluid_flowing",
+    "textureStill": "arcane_fluid_test",
+    "textureFlowing": "arcane_fluid_test",
     "tintType": "No tint",
     "canMultiply": false,
     "flowRate": 5,
