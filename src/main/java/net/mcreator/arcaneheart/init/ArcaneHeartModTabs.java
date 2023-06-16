@@ -28,8 +28,6 @@ public class ArcaneHeartModTabs {
 		event.registerCreativeModeTab(new ResourceLocation("arcane_heart", "arcane_heart"),
 				builder -> builder.title(Component.translatable("item_group.arcane_heart.arcane_heart")).icon(() -> new ItemStack(ArcaneHeartModItems.ARCANE_MANA_DROP.get())).displayItems((parameters, tabData) -> {
 					tabData.accept(ArcaneHeartModItems.ARCANE_MANA_DROP.get());
-					tabData.accept(ArcaneHeartModItems.BOWL_OF_ARCANE_MANA.get());
-					tabData.accept(ArcaneHeartModItems.BOTTLED_ARCANE_MANA.get());
 					tabData.accept(ArcaneHeartModItems.ARCANE_MANA_BUCKET.get());
 					tabData.accept(ArcaneHeartModItems.EARTH_MANA_DROP.get());
 					tabData.accept(ArcaneHeartModItems.WATER_MANA_DROP.get());

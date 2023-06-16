@@ -27,36 +27,6 @@
       }
     },
     {
-      "name": "BowlOfArcaneMana",
-      "type": "item",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bowl_of_arcane_mana",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/arcane_heart/models/item/bowl_of_arcane_mana.json",
-          "src/main/java/net/mcreator/arcaneheart/item/BowlOfArcaneManaItem.java"
-        ]
-      },
-      "path": "~/Arcane"
-    },
-    {
-      "name": "BottledArcaneMana",
-      "type": "item",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bottled_arcane_mana",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/arcane_heart/models/item/bottled_arcane_mana.json",
-          "src/main/java/net/mcreator/arcaneheart/item/BottledArcaneManaItem.java"
-        ]
-      },
-      "path": "~/Arcane"
-    },
-    {
       "name": "ArcaneMana",
       "type": "fluid",
       "sortid": 5,
@@ -89,20 +59,6 @@
           "src/main/resources/assets/arcane_heart/models/item/bigger_bottle.json"
         ]
       }
-    },
-    {
-      "name": "BottledArcaneManaRecipe",
-      "type": "recipe",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bottled_arcane_mana_recipe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/arcaneheart/recipes/brewing/BottledArcaneManaRecipeBrewingRecipe.java"
-        ]
-      },
-      "path": "~/Recipes"
     },
     {
       "name": "BiggerBottleRecipe",
@@ -218,11 +174,9 @@
       "item.arcane_heart.bigger_bottle": "Bigger Bottle",
       "item_group.arcane_heart.arcane_heart": "Arcane Heart",
       "item.arcane_heart.order_mana_drop": "Order Conflux",
-      "item.arcane_heart.bowl_of_arcane_mana": "Bowl Of Arcane Mana",
       "item.arcane_heart.water_mana_drop": "Droplet of Mana",
       "fluid.arcane_heart.arcane_mana": "Arcane Mana",
       "item.arcane_heart.entropy_mana_drop": "Entropy Tear",
-      "item.arcane_heart.bottled_arcane_mana": "Bottled Arcane Mana",
       "item.arcane_heart.arcane_mana_drop": "Heart of Mana",
       "item.arcane_heart.fire_mana_drop": "Mana Ember",
       "item.arcane_heart.air_mana_drop": "Gusty Mana",

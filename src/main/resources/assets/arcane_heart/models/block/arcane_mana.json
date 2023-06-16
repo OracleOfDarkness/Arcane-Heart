@@ -1,5 +1,5 @@
 {
   "textures": {
-    "particle": "arcane_heart:block/still_arcane_mana"
+    "particle": "arcane_heart:block/arcane_fluid"
   }
 }
