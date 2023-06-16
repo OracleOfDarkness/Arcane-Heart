@@ -124,6 +124,20 @@
           "src/main/resources/data/arcane_heart/recipes/bigger_bottle_recipe.json"
         ]
       }
+    },
+    {
+      "name": "EmberOfMana",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ember_of_mana",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/arcane_heart/models/item/ember_of_mana.json",
+          "src/main/java/net/mcreator/arcaneheart/item/EmberOfManaItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -137,7 +151,8 @@
       "item.arcane_heart.bigger_bottle": "Bigger Bottle",
       "item_group.arcane_heart.arcane_heart": "Arcane Heart",
       "item.arcane_heart.bottled_arcane_mana": "Bottled Arcane Mana",
-      "item.arcane_heart.arcane_mana_drop": "Arcane Mana Drop"
+      "item.arcane_heart.arcane_mana_drop": "Arcane Mana Drop",
+      "item.arcane_heart.ember_of_mana": "Ember Of Mana"
     }
   },
   "foldersRoot": {

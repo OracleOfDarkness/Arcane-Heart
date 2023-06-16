@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
+import net.mcreator.arcaneheart.item.EmberOfManaItem;
 import net.mcreator.arcaneheart.item.BowlOfArcaneManaItem;
 import net.mcreator.arcaneheart.item.BottledArcaneManaItem;
 import net.mcreator.arcaneheart.item.BiggerBottleItem;
@@ -24,4 +25,5 @@ public class ArcaneHeartModItems {
 	public static final RegistryObject<Item> BOTTLED_ARCANE_MANA = REGISTRY.register("bottled_arcane_mana", () -> new BottledArcaneManaItem());
 	public static final RegistryObject<Item> ARCANE_MANA_BUCKET = REGISTRY.register("arcane_mana_bucket", () -> new ArcaneManaItem());
 	public static final RegistryObject<Item> BIGGER_BOTTLE = REGISTRY.register("bigger_bottle", () -> new BiggerBottleItem());
+	public static final RegistryObject<Item> EMBER_OF_MANA = REGISTRY.register("ember_of_mana", () -> new EmberOfManaItem());
 }

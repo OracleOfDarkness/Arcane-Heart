@@ -31,6 +31,7 @@ public class ArcaneHeartModTabs {
 					tabData.accept(ArcaneHeartModItems.BOWL_OF_ARCANE_MANA.get());
 					tabData.accept(ArcaneHeartModItems.BOTTLED_ARCANE_MANA.get());
 					tabData.accept(ArcaneHeartModItems.ARCANE_MANA_BUCKET.get());
+					tabData.accept(ArcaneHeartModItems.EMBER_OF_MANA.get());
 				})
 
 		);
