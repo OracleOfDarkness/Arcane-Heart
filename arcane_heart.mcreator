@@ -59,7 +59,7 @@
           "src/main/resources/assets/arcane_heart/models/item/bigger_bottle.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Tools"
     },
     {
       "name": "BiggerBottleRecipe",
@@ -238,7 +238,7 @@
           "src/main/resources/assets/arcane_heart/models/item/spellbook.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Tools"
     },
     {
       "name": "Spellpages",
@@ -249,8 +249,7 @@
       "registry_name": "spellpages",
       "metadata": {
         "files": []
-      },
-      "path": "~/Items/Spellpages"
+      }
     },
     {
       "name": "CobbleSpellpageItem",
@@ -930,7 +929,7 @@
           "src/main/java/net/mcreator/arcaneheart/item/MortarPestleItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Tools"
     },
     {
       "name": "MagicBowl",
@@ -945,7 +944,7 @@
           "src/main/java/net/mcreator/arcaneheart/item/MagicBowlItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Tools"
     },
     {
       "name": "EndermanLoot",
@@ -1128,6 +1127,71 @@
         ]
       },
       "path": "~/Loot Tables"
+    },
+    {
+      "name": "FireSpellpageRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_spellpage_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/procedures/FireSpellpageRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "FireSpellpage",
+      "type": "item",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_spellpage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/item/FireSpellpageItem.java",
+          "src/main/resources/assets/arcane_heart/models/item/fire_spellpage.json"
+        ]
+      },
+      "path": "~/Items/Spellpages"
+    },
+    {
+      "name": "FireSpellpageRecipe",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_spellpage_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcane_heart/recipes/fire_spellpage_recipe.json"
+        ]
+      },
+      "path": "~/Items/Recipes"
     }
   ],
   "variable_elements": [],
@@ -1138,8 +1202,8 @@
       "item.arcane_heart.cobble_spellpage_item": "Cobble Spellpage",
       "item.arcane_heart.bigger_bottle": "Empty Bottle",
       "item.arcane_heart.gravel_spellpage_item": "Gravel Spellpage",
-      "painting.arcane_heart.earth_painting.title": "Earth Painting",
       "item.arcane_heart.stone_spellpage_item": "Stone Spellpage",
+      "painting.arcane_heart.earth_painting.title": "Earth Painting",
       "item.arcane_heart.order_mana_drop": "Conflux Of Order",
       "item.arcane_heart.entropy_mana_potion": "Tear of Entropy Potion",
       "item.arcane_heart.water_mana_potion": "Droplet of Water Potion",
@@ -1149,14 +1213,15 @@
       "item.arcane_heart.arcane_mana_drop": "Heart of Mana",
       "painting.arcane_heart.arcane_painting.title": "Arcane Painting",
       "item.arcane_heart.light_spellpage_item": "Light Spellpage",
-      "painting.arcane_heart.entropy_painting.author": "SuperBenji",
       "item.arcane_heart.sandstone_spellpage_item": "Sandstone Spellpage",
+      "painting.arcane_heart.entropy_painting.author": "SuperBenji",
+      "item.arcane_heart.fire_spellpage": "Fire Spellpage",
       "gui.arcane_heart.spellbook_gui.Search": "Search",
       "block.arcane_heart.arcane_mana": "Arcane Mana",
       "painting.arcane_heart.air_painting.title": "Air Painting",
       "item.arcane_heart.order_mana_potion": "Conflux of Order Potion",
-      "painting.arcane_heart.fire_painting.title": "Fire Painting",
       "painting.arcane_heart.water_painting.author": "SuperBenji",
+      "painting.arcane_heart.fire_painting.title": "Fire Painting",
       "painting.arcane_heart.order_painting.author": "SuperBenji",
       "item.arcane_heart.fire_mana_drop": "Ember Of Fire",
       "item.arcane_heart.fire_mana_potion": "Ember of Fire Potion",
@@ -1228,6 +1293,10 @@
           },
           {
             "name": "Order",
+            "children": []
+          },
+          {
+            "name": "Tools",
             "children": []
           }
         ]

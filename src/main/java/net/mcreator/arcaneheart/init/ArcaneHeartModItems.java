@@ -22,6 +22,7 @@ import net.mcreator.arcaneheart.item.MortarPestleItem;
 import net.mcreator.arcaneheart.item.MagicBowlItem;
 import net.mcreator.arcaneheart.item.LightSpellpageItemItem;
 import net.mcreator.arcaneheart.item.GravelSpellpageItemItem;
+import net.mcreator.arcaneheart.item.FireSpellpageItem;
 import net.mcreator.arcaneheart.item.FireManaPotionItem;
 import net.mcreator.arcaneheart.item.FireManaDropItem;
 import net.mcreator.arcaneheart.item.EntropyManaPotionItem;
@@ -68,4 +69,5 @@ public class ArcaneHeartModItems {
 	public static final RegistryObject<Item> ORDER_MANA_POTION = REGISTRY.register("order_mana_potion", () -> new OrderManaPotionItem());
 	public static final RegistryObject<Item> MORTAR_PESTLE = REGISTRY.register("mortar_pestle", () -> new MortarPestleItem());
 	public static final RegistryObject<Item> MAGIC_BOWL = REGISTRY.register("magic_bowl", () -> new MagicBowlItem());
+	public static final RegistryObject<Item> FIRE_SPELLPAGE = REGISTRY.register("fire_spellpage", () -> new FireSpellpageItem());
 }
