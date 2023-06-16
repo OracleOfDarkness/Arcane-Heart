@@ -14,49 +14,49 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:EntropyManaDrop"
-            },
-            "weight": 15,
-            "minCount": 1,
-            "maxCount": 1,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": true,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
               "value": "CUSTOM:ArcaneManaDrop"
             },
-            "weight": 15,
+            "weight": 10,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
-            "affectedByFortune": true,
+            "affectedByFortune": false,
             "explosionDecay": false,
             "silkTouchMode": 0
           },
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:AirManaDrop"
+              "value": "CUSTOM:WaterManaDrop"
             },
-            "weight": 15,
+            "weight": 10,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
-            "affectedByFortune": true,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:EntropyManaDrop"
+            },
+            "weight": 10,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
             "explosionDecay": false,
             "silkTouchMode": 0
           }
         ]
       }
     ],
-    "name": "entities/enderman",
+    "name": "entities/squid",
     "namespace": "minecraft"
   }
 }

@@ -6,46 +6,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "arcane_heart:arcane_mana_drop",
-          "weight": 15,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            },
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "arcane_heart:fire_mana_drop",
-          "weight": 15,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
-            },
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "arcane_heart:entropy_mana_drop",
-          "weight": 15,
+          "weight": 10,
           "functions": [
             {
               "function": "set_count",
@@ -53,11 +15,34 @@
                 "min": 1,
                 "max": 1
               }
-            },
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arcane_heart:air_mana_drop",
+          "weight": 10,
+          "functions": [
             {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arcane_heart:arcane_mana_drop",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
             }
           ]
         }

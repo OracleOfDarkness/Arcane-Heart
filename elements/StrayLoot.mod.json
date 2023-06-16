@@ -16,26 +16,12 @@
             "item": {
               "value": "CUSTOM:EntropyManaDrop"
             },
-            "weight": 15,
+            "weight": 10,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
-            "affectedByFortune": true,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:ArcaneManaDrop"
-            },
-            "weight": 15,
-            "minCount": 1,
-            "maxCount": 1,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": true,
+            "affectedByFortune": false,
             "explosionDecay": false,
             "silkTouchMode": 0
           },
@@ -44,19 +30,33 @@
             "item": {
               "value": "CUSTOM:AirManaDrop"
             },
-            "weight": 15,
+            "weight": 10,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
-            "affectedByFortune": true,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:ArcaneManaDrop"
+            },
+            "weight": 10,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
             "explosionDecay": false,
             "silkTouchMode": 0
           }
         ]
       }
     ],
-    "name": "entities/enderman",
+    "name": "entities/stray",
     "namespace": "minecraft"
   }
 }

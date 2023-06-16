@@ -38,25 +38,11 @@
             "affectedByFortune": true,
             "explosionDecay": false,
             "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:AirManaDrop"
-            },
-            "weight": 15,
-            "minCount": 1,
-            "maxCount": 1,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": true,
-            "explosionDecay": false,
-            "silkTouchMode": 0
           }
         ]
       }
     ],
-    "name": "entities/enderman",
+    "name": "entities/skeleton",
     "namespace": "minecraft"
   }
 }

@@ -1058,6 +1058,76 @@
         ]
       },
       "path": "~/Items/Recipes"
+    },
+    {
+      "name": "SquidLootTable",
+      "type": "loottable",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squid_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/squid.json"
+        ]
+      },
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "StrayLoot",
+      "type": "loottable",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stray_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/stray.json"
+        ]
+      },
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "SlimeLoot",
+      "type": "loottable",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/slime.json"
+        ]
+      },
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "SkeletonLoot",
+      "type": "loottable",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skeleton_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/skeleton.json"
+        ]
+      },
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "WitchLoot",
+      "type": "loottable",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "witch_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/witch.json"
+        ]
+      },
+      "path": "~/Loot Tables"
     }
   ],
   "variable_elements": [],
@@ -1068,8 +1138,8 @@
       "item.arcane_heart.cobble_spellpage_item": "Cobble Spellpage",
       "item.arcane_heart.bigger_bottle": "Empty Bottle",
       "item.arcane_heart.gravel_spellpage_item": "Gravel Spellpage",
-      "item.arcane_heart.stone_spellpage_item": "Stone Spellpage",
       "painting.arcane_heart.earth_painting.title": "Earth Painting",
+      "item.arcane_heart.stone_spellpage_item": "Stone Spellpage",
       "item.arcane_heart.order_mana_drop": "Conflux Of Order",
       "item.arcane_heart.entropy_mana_potion": "Tear of Entropy Potion",
       "item.arcane_heart.water_mana_potion": "Droplet of Water Potion",
@@ -1079,14 +1149,14 @@
       "item.arcane_heart.arcane_mana_drop": "Heart of Mana",
       "painting.arcane_heart.arcane_painting.title": "Arcane Painting",
       "item.arcane_heart.light_spellpage_item": "Light Spellpage",
-      "item.arcane_heart.sandstone_spellpage_item": "Sandstone Spellpage",
       "painting.arcane_heart.entropy_painting.author": "SuperBenji",
+      "item.arcane_heart.sandstone_spellpage_item": "Sandstone Spellpage",
       "gui.arcane_heart.spellbook_gui.Search": "Search",
       "block.arcane_heart.arcane_mana": "Arcane Mana",
       "painting.arcane_heart.air_painting.title": "Air Painting",
       "item.arcane_heart.order_mana_potion": "Conflux of Order Potion",
-      "painting.arcane_heart.water_painting.author": "SuperBenji",
       "painting.arcane_heart.fire_painting.title": "Fire Painting",
+      "painting.arcane_heart.water_painting.author": "SuperBenji",
       "painting.arcane_heart.order_painting.author": "SuperBenji",
       "item.arcane_heart.fire_mana_drop": "Ember Of Fire",
       "item.arcane_heart.fire_mana_potion": "Ember of Fire Potion",
