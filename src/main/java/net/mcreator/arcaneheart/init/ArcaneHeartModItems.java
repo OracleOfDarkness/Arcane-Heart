@@ -10,16 +10,21 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
+import net.mcreator.arcaneheart.item.WaterManaPotionItem;
 import net.mcreator.arcaneheart.item.WaterManaDropItem;
 import net.mcreator.arcaneheart.item.StoneSpellpageItemItem;
 import net.mcreator.arcaneheart.item.SpellbookItem;
 import net.mcreator.arcaneheart.item.SandstoneSpellpageItemItem;
 import net.mcreator.arcaneheart.item.SandSpellpageItemItem;
+import net.mcreator.arcaneheart.item.OrderManaPotionItem;
 import net.mcreator.arcaneheart.item.OrderManaDropItem;
 import net.mcreator.arcaneheart.item.LightSpellpageItemItem;
 import net.mcreator.arcaneheart.item.GravelSpellpageItemItem;
+import net.mcreator.arcaneheart.item.FireManaPotionItem;
 import net.mcreator.arcaneheart.item.FireManaDropItem;
+import net.mcreator.arcaneheart.item.EntropyManaPotionItem;
 import net.mcreator.arcaneheart.item.EntropyManaDropItem;
+import net.mcreator.arcaneheart.item.EarthManaPotionItem;
 import net.mcreator.arcaneheart.item.EarthManaDropItem;
 import net.mcreator.arcaneheart.item.DirtSpellpageItemItem;
 import net.mcreator.arcaneheart.item.CobbleSpellpageItemItem;
@@ -28,6 +33,7 @@ import net.mcreator.arcaneheart.item.BottleOfManaItem;
 import net.mcreator.arcaneheart.item.BiggerBottleItem;
 import net.mcreator.arcaneheart.item.ArcaneManaItem;
 import net.mcreator.arcaneheart.item.ArcaneManaDropItem;
+import net.mcreator.arcaneheart.item.AirManaPotionItem;
 import net.mcreator.arcaneheart.item.AirManaDropItem;
 import net.mcreator.arcaneheart.ArcaneHeartMod;
 
@@ -52,4 +58,10 @@ public class ArcaneHeartModItems {
 	public static final RegistryObject<Item> DIRT_SPELLPAGE_ITEM = REGISTRY.register("dirt_spellpage_item", () -> new DirtSpellpageItemItem());
 	public static final RegistryObject<Item> SANDSTONE_SPELLPAGE_ITEM = REGISTRY.register("sandstone_spellpage_item", () -> new SandstoneSpellpageItemItem());
 	public static final RegistryObject<Item> LIGHT_SPELLPAGE_ITEM = REGISTRY.register("light_spellpage_item", () -> new LightSpellpageItemItem());
+	public static final RegistryObject<Item> EARTH_MANA_POTION = REGISTRY.register("earth_mana_potion", () -> new EarthManaPotionItem());
+	public static final RegistryObject<Item> FIRE_MANA_POTION = REGISTRY.register("fire_mana_potion", () -> new FireManaPotionItem());
+	public static final RegistryObject<Item> WATER_MANA_POTION = REGISTRY.register("water_mana_potion", () -> new WaterManaPotionItem());
+	public static final RegistryObject<Item> AIR_MANA_POTION = REGISTRY.register("air_mana_potion", () -> new AirManaPotionItem());
+	public static final RegistryObject<Item> ENTROPY_MANA_POTION = REGISTRY.register("entropy_mana_potion", () -> new EntropyManaPotionItem());
+	public static final RegistryObject<Item> ORDER_MANA_POTION = REGISTRY.register("order_mana_potion", () -> new OrderManaPotionItem());
 }

@@ -538,6 +538,96 @@
         ]
       },
       "path": "~/Items/Recipes"
+    },
+    {
+      "name": "EarthManaPotion",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earth_mana_potion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/item/EarthManaPotionItem.java",
+          "src/main/resources/assets/arcane_heart/models/item/earth_mana_potion.json"
+        ]
+      },
+      "path": "~/Items/Earth"
+    },
+    {
+      "name": "FireManaPotion",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_mana_potion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/item/FireManaPotionItem.java",
+          "src/main/resources/assets/arcane_heart/models/item/fire_mana_potion.json"
+        ]
+      },
+      "path": "~/Items/Fire"
+    },
+    {
+      "name": "WaterManaPotion",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_mana_potion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/item/WaterManaPotionItem.java",
+          "src/main/resources/assets/arcane_heart/models/item/water_mana_potion.json"
+        ]
+      },
+      "path": "~/Items/Water"
+    },
+    {
+      "name": "AirManaPotion",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "air_mana_potion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/item/AirManaPotionItem.java",
+          "src/main/resources/assets/arcane_heart/models/item/air_mana_potion.json"
+        ]
+      },
+      "path": "~/Items/Air"
+    },
+    {
+      "name": "EntropyManaPotion",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entropy_mana_potion",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/arcane_heart/models/item/entropy_mana_potion.json",
+          "src/main/java/net/mcreator/arcaneheart/item/EntropyManaPotionItem.java"
+        ]
+      },
+      "path": "~/Items/Entropy"
+    },
+    {
+      "name": "OrderManaPotion",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "order_mana_potion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/item/OrderManaPotionItem.java",
+          "src/main/resources/assets/arcane_heart/models/item/order_mana_potion.json"
+        ]
+      },
+      "path": "~/Items/Order"
     }
   ],
   "variable_elements": [],
@@ -545,6 +635,7 @@
   "language_map": {
     "en_us": {
       "item.arcane_heart.sand_spellpage_item": "Sand Spellpage",
+      "item.arcane_heart.air_mana_potion": "Gust of Air Potion",
       "item.arcane_heart.dirt_spellpage_item": "Dirt Spellpage",
       "item.arcane_heart.cobble_spellpage_item": "Cobble Spellpage",
       "item.arcane_heart.bigger_bottle": "Empty Bottle",
@@ -553,10 +644,13 @@
       "item_group.arcane_heart.arcane_heart": "Arcane Heart",
       "painting.arcane_heart.earth_painting.title": "Earth Painting",
       "item.arcane_heart.order_mana_drop": "Conflux Of Order",
+      "item.arcane_heart.entropy_mana_potion": "Tear of Entropy Potion",
+      "item.arcane_heart.water_mana_potion": "Droplet of Water Potion",
       "painting.arcane_heart.fire_painting.author": "SuperBenji",
       "gui.arcane_heart.spellbook_gui.label_superbenji": "SuperBenji",
       "item_group.arcane_heart.spellpages": "Spellpage",
       "fluid.arcane_heart.arcane_mana": "Arcane Mana",
+      "item.arcane_heart.earth_mana_potion": "Fractal of Earth Potion",
       "gui.arcane_heart.spellbook_gui.label_oracleofdarkness": "OracleOfDarkness",
       "item.arcane_heart.arcane_mana_drop": "Heart of Mana",
       "painting.arcane_heart.arcane_painting.title": "Arcane Painting",
@@ -570,6 +664,7 @@
       "block.arcane_heart.arcane_mana": "Arcane Mana",
       "painting.arcane_heart.air_painting.title": "Air Painting",
       "painting.arcane_heart.arcane_painting.author": "SuperBenji",
+      "item.arcane_heart.order_mana_potion": "Conflux of Order Potion",
       "item.arcane_heart.spellbook": "Spellbook",
       "item.arcane_heart.water_mana_drop": "Droplet of Water",
       "painting.arcane_heart.fire_painting.title": "Fire Painting",
@@ -581,6 +676,7 @@
       "item.arcane_heart.fire_mana_drop": "Ember Of Fire",
       "item.arcane_heart.air_mana_drop": "Gust Of Air",
       "painting.arcane_heart.air_painting.author": "SuperBenji",
+      "item.arcane_heart.fire_mana_potion": "Ember of Fire Potion",
       "item.arcane_heart.earth_mana_drop": "Fractal of Earth ",
       "painting.arcane_heart.water_painting.title": "Water Painting",
       "painting.arcane_heart.earth_painting.author": "SuperBenji"

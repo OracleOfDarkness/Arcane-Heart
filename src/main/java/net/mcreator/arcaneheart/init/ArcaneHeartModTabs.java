@@ -30,6 +30,12 @@ public class ArcaneHeartModTabs {
 					tabData.accept(ArcaneHeartModItems.BOTTLE_OF_MANA.get());
 					tabData.accept(ArcaneHeartModItems.BOWL_OF_MANA.get());
 					tabData.accept(ArcaneHeartModItems.SPELLBOOK.get());
+					tabData.accept(ArcaneHeartModItems.EARTH_MANA_POTION.get());
+					tabData.accept(ArcaneHeartModItems.FIRE_MANA_POTION.get());
+					tabData.accept(ArcaneHeartModItems.WATER_MANA_POTION.get());
+					tabData.accept(ArcaneHeartModItems.AIR_MANA_POTION.get());
+					tabData.accept(ArcaneHeartModItems.ENTROPY_MANA_POTION.get());
+					tabData.accept(ArcaneHeartModItems.ORDER_MANA_POTION.get());
 				})
 
 		);
