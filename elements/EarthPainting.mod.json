@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "painting",
+  "definition": {
+    "texture": "earth.png",
+    "width": 48,
+    "height": 48,
+    "title": "Earth Painting",
+    "author": "SuperBenji"
+  }
+}

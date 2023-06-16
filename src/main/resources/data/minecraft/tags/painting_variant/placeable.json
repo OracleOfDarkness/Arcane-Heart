@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "arcane_heart:arcane_painting",
+    "arcane_heart:order_painting",
+    "arcane_heart:entropy_painting",
+    "arcane_heart:fire_painting",
+    "arcane_heart:water_painting",
+    "arcane_heart:earth_painting",
+    "arcane_heart:air_painting"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "painting",
+  "definition": {
+    "texture": "air.png",
+    "width": 48,
+    "height": 48,
+    "title": "Air Painting",
+    "author": "SuperBenji"
+  }
+}
