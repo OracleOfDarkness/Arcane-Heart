@@ -36,6 +36,8 @@ public class ArcaneHeartModTabs {
 					tabData.accept(ArcaneHeartModItems.AIR_MANA_POTION.get());
 					tabData.accept(ArcaneHeartModItems.ENTROPY_MANA_POTION.get());
 					tabData.accept(ArcaneHeartModItems.ORDER_MANA_POTION.get());
+					tabData.accept(ArcaneHeartModItems.MORTAR_PESTLE.get());
+					tabData.accept(ArcaneHeartModItems.MAGIC_BOWL.get());
 				})
 
 		);

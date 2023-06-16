@@ -628,58 +628,392 @@
         ]
       },
       "path": "~/Items/Order"
+    },
+    {
+      "name": "CobbleSpellpageItemRightclicked",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_spellpage_item_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/procedures/CobbleSpellpageItemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Proceedures"
+    },
+    {
+      "name": "DirtSpellpageItemRightclicked",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_spellpage_item_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/procedures/DirtSpellpageItemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Proceedures"
+    },
+    {
+      "name": "StoneSpellpageItemRightclicked",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_spellpage_item_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/procedures/StoneSpellpageItemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Proceedures"
+    },
+    {
+      "name": "SandstoneSpellpageItemRightclicked",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_spellpage_item_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/procedures/SandstoneSpellpageItemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Proceedures"
+    },
+    {
+      "name": "GravelSpellpageItemRightclicked",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravel_spellpage_item_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/procedures/GravelSpellpageItemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Proceedures"
+    },
+    {
+      "name": "SandSpellpageItemRightclicked",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_spellpage_item_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/procedures/SandSpellpageItemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Proceedures"
+    },
+    {
+      "name": "AirManaPotionRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "air_mana_potion_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/recipes/brewing/AirManaPotionRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "FireManaPotionRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_mana_potion_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/recipes/brewing/FireManaPotionRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "WaterManaPotionRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_mana_potion_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/recipes/brewing/WaterManaPotionRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "EarthManaPotionRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earth_mana_potion_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/recipes/brewing/EarthManaPotionRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "OrderManaPotionRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "order_mana_potion_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/recipes/brewing/OrderManaPotionRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "EntropyManaPotionRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entropy_mana_potion_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/recipes/brewing/EntropyManaPotionRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "LightSpellpageItemRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_spellpage_item_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/procedures/LightSpellpageItemRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Proceedures"
+    },
+    {
+      "name": "MortarPestle",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mortar_pestle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/arcane_heart/models/item/mortar_pestle.json",
+          "src/main/java/net/mcreator/arcaneheart/item/MortarPestleItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "MagicBowl",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_bowl",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/arcane_heart/models/item/magic_bowl.json",
+          "src/main/java/net/mcreator/arcaneheart/item/MagicBowlItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "EndermanLoot",
+      "type": "loottable",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderman_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/enderman.json"
+        ]
+      },
+      "path": "~/Loot Tables"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.arcane_heart.sand_spellpage_item": "Sand Spellpage",
-      "item.arcane_heart.air_mana_potion": "Gust of Air Potion",
       "item.arcane_heart.dirt_spellpage_item": "Dirt Spellpage",
       "item.arcane_heart.cobble_spellpage_item": "Cobble Spellpage",
       "item.arcane_heart.bigger_bottle": "Empty Bottle",
       "item.arcane_heart.gravel_spellpage_item": "Gravel Spellpage",
       "item.arcane_heart.stone_spellpage_item": "Stone Spellpage",
-      "item_group.arcane_heart.arcane_heart": "Arcane Heart",
       "painting.arcane_heart.earth_painting.title": "Earth Painting",
       "item.arcane_heart.order_mana_drop": "Conflux Of Order",
       "item.arcane_heart.entropy_mana_potion": "Tear of Entropy Potion",
       "item.arcane_heart.water_mana_potion": "Droplet of Water Potion",
       "painting.arcane_heart.fire_painting.author": "SuperBenji",
-      "gui.arcane_heart.spellbook_gui.label_superbenji": "SuperBenji",
       "item_group.arcane_heart.spellpages": "Spellpage",
-      "fluid.arcane_heart.arcane_mana": "Arcane Mana",
       "item.arcane_heart.earth_mana_potion": "Fractal of Earth Potion",
-      "gui.arcane_heart.spellbook_gui.label_oracleofdarkness": "OracleOfDarkness",
       "item.arcane_heart.arcane_mana_drop": "Heart of Mana",
       "painting.arcane_heart.arcane_painting.title": "Arcane Painting",
-      "painting.arcane_heart.entropy_painting.title": "Entropy Painting",
       "item.arcane_heart.light_spellpage_item": "Light Spellpage",
-      "item.arcane_heart.arcane_mana_bucket": "Arcane Mana Bucket",
       "item.arcane_heart.sandstone_spellpage_item": "Sandstone Spellpage",
-      "painting.arcane_heart.order_painting.title": "Order Painting",
       "painting.arcane_heart.entropy_painting.author": "SuperBenji",
       "gui.arcane_heart.spellbook_gui.Search": "Search",
       "block.arcane_heart.arcane_mana": "Arcane Mana",
       "painting.arcane_heart.air_painting.title": "Air Painting",
-      "painting.arcane_heart.arcane_painting.author": "SuperBenji",
       "item.arcane_heart.order_mana_potion": "Conflux of Order Potion",
-      "item.arcane_heart.spellbook": "Spellbook",
-      "item.arcane_heart.water_mana_drop": "Droplet of Water",
       "painting.arcane_heart.fire_painting.title": "Fire Painting",
       "painting.arcane_heart.water_painting.author": "SuperBenji",
+      "painting.arcane_heart.order_painting.author": "SuperBenji",
+      "item.arcane_heart.fire_mana_drop": "Ember Of Fire",
+      "item.arcane_heart.fire_mana_potion": "Ember of Fire Potion",
+      "painting.arcane_heart.earth_painting.author": "SuperBenji",
+      "item.arcane_heart.sand_spellpage_item": "Sand Spellpage",
+      "item.arcane_heart.air_mana_potion": "Gust of Air Potion",
+      "item_group.arcane_heart.arcane_heart": "Arcane Heart",
+      "item.arcane_heart.mortar_pestle": "Mortar \u0026 Pestle",
+      "gui.arcane_heart.spellbook_gui.label_superbenji": "SuperBenji",
+      "item.arcane_heart.magic_bowl": "Magic Bowl",
+      "fluid.arcane_heart.arcane_mana": "Arcane Mana",
+      "gui.arcane_heart.spellbook_gui.label_oracleofdarkness": "OracleOfDarkness",
+      "painting.arcane_heart.entropy_painting.title": "Entropy Painting",
+      "painting.arcane_heart.order_painting.title": "Order Painting",
+      "item.arcane_heart.arcane_mana_bucket": "Arcane Mana Bucket",
+      "painting.arcane_heart.arcane_painting.author": "SuperBenji",
+      "item.arcane_heart.spellbook": "Spellbook",
+      "item.arcane_heart.water_mana_drop": "Droplet of Water",
       "item.arcane_heart.bottle_of_mana": "Bottle Of Mana",
       "item.arcane_heart.bowl_of_mana": "Bowl Of Mana",
       "item.arcane_heart.entropy_mana_drop": "Tear of Entropy",
-      "painting.arcane_heart.order_painting.author": "SuperBenji",
-      "item.arcane_heart.fire_mana_drop": "Ember Of Fire",
       "item.arcane_heart.air_mana_drop": "Gust Of Air",
       "painting.arcane_heart.air_painting.author": "SuperBenji",
-      "item.arcane_heart.fire_mana_potion": "Ember of Fire Potion",
       "item.arcane_heart.earth_mana_drop": "Fractal of Earth ",
-      "painting.arcane_heart.water_painting.title": "Water Painting",
-      "painting.arcane_heart.earth_painting.author": "SuperBenji"
+      "painting.arcane_heart.water_painting.title": "Water Painting"
     }
   },
   "foldersRoot": {
@@ -745,6 +1079,10 @@
       },
       {
         "name": "Proceedures",
+        "children": []
+      },
+      {
+        "name": "Loot Tables",
         "children": []
       }
     ]

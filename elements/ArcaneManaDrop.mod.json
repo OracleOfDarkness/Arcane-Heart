@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "arcane_1",
+    "texture": "arcane64",
     "customModelName": "Normal",
     "name": "Heart of Mana",
     "rarity": "COMMON",

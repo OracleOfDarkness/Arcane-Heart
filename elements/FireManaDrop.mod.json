@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "fire_1",
+    "texture": "fire64",
     "customModelName": "Normal",
     "name": "Ember Of Fire",
     "rarity": "COMMON",

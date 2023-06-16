@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "air_1",
+    "texture": "air64",
     "customModelName": "Normal",
     "name": "Gust Of Air",
     "rarity": "COMMON",

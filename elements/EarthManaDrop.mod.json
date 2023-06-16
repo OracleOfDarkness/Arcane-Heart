@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "earth_1",
+    "texture": "earth64",
     "customModelName": "Normal",
     "name": "Fractal of Earth ",
     "rarity": "COMMON",

@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "mana_bowl",
+    "texture": "bowl_of_mana64",
     "customModelName": "Normal",
     "name": "Bowl Of Mana",
     "rarity": "COMMON",
