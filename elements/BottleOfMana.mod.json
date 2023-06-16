@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "empty_bottle",
+    "texture": "mana_bottle",
     "customModelName": "Normal",
-    "name": "Empty Bottle",
+    "name": "Bottle Of Mana",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:ArcaneHeart"
     },
     "stackSize": 64,
     "enchantability": 0,

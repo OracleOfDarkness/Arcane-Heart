@@ -1,5 +1,6 @@
 {
-  "parent": "forge:item/bucket_drip",
-  "loader": "forge:fluid_container",
-  "fluid": "arcane_heart:arcane_mana"
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "arcane_heart:item/bucket_of_mana"
+  }
 }

@@ -22,7 +22,7 @@
     "temperature": 300,
     "type": "WATER",
     "generateBucket": true,
-    "textureBucket": "",
+    "textureBucket": "bucket_of_mana",
     "creativeTab": {
       "value": "CUSTOM:ArcaneHeart"
     },

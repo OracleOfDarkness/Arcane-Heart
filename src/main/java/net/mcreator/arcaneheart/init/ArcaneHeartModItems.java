@@ -15,6 +15,8 @@ import net.mcreator.arcaneheart.item.OrderManaDropItem;
 import net.mcreator.arcaneheart.item.FireManaDropItem;
 import net.mcreator.arcaneheart.item.EntropyManaDropItem;
 import net.mcreator.arcaneheart.item.EarthManaDropItem;
+import net.mcreator.arcaneheart.item.BowlOfManaItem;
+import net.mcreator.arcaneheart.item.BottleOfManaItem;
 import net.mcreator.arcaneheart.item.BiggerBottleItem;
 import net.mcreator.arcaneheart.item.ArcaneManaItem;
 import net.mcreator.arcaneheart.item.ArcaneManaDropItem;
@@ -32,4 +34,6 @@ public class ArcaneHeartModItems {
 	public static final RegistryObject<Item> AIR_MANA_DROP = REGISTRY.register("air_mana_drop", () -> new AirManaDropItem());
 	public static final RegistryObject<Item> ENTROPY_MANA_DROP = REGISTRY.register("entropy_mana_drop", () -> new EntropyManaDropItem());
 	public static final RegistryObject<Item> ORDER_MANA_DROP = REGISTRY.register("order_mana_drop", () -> new OrderManaDropItem());
+	public static final RegistryObject<Item> BOTTLE_OF_MANA = REGISTRY.register("bottle_of_mana", () -> new BottleOfManaItem());
+	public static final RegistryObject<Item> BOWL_OF_MANA = REGISTRY.register("bowl_of_mana", () -> new BowlOfManaItem());
 }
