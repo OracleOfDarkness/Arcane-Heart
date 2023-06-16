@@ -44,6 +44,21 @@
           "x": 255,
           "y": 200
         }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_oracleofdarkness",
+          "text": {
+            "fixedValue": "OracleOfDarkness"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 93,
+          "y": 200
+        }
       }
     ],
     "gridSettings": {

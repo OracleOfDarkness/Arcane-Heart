@@ -77,6 +77,7 @@ public class SpellbookGuiScreen extends AbstractContainerScreen<SpellbookGuiMenu
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, Component.translatable("gui.arcane_heart.spellbook_gui.label_superbenji"), 142, 163, -12829636);
+		this.font.draw(poseStack, Component.translatable("gui.arcane_heart.spellbook_gui.label_oracleofdarkness"), -19, 163, -12829636);
 	}
 
 	@Override
