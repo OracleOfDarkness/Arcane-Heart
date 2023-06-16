@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "water_1",
     "customModelName": "Normal",
-    "name": "Droplet of Mana",
+    "name": "Droplet of Water",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:ArcaneHeart"

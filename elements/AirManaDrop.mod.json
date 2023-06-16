@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "air_1",
     "customModelName": "Normal",
-    "name": "Gust Of Mana",
+    "name": "Gust Of Air",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:ArcaneHeart"
