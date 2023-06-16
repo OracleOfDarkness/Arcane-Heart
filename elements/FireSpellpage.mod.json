@@ -8,7 +8,7 @@
     "name": "Fire Spellpage",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:ArcaneHeart"
+      "value": "CUSTOM:Spellpages"
     },
     "stackSize": 64,
     "enchantability": 0,

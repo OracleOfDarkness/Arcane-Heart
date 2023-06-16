@@ -38,7 +38,6 @@ public class ArcaneHeartModTabs {
 					tabData.accept(ArcaneHeartModItems.ORDER_MANA_POTION.get());
 					tabData.accept(ArcaneHeartModItems.MORTAR_PESTLE.get());
 					tabData.accept(ArcaneHeartModItems.MAGIC_BOWL.get());
-					tabData.accept(ArcaneHeartModItems.FIRE_SPELLPAGE.get());
 				})
 
 		);
@@ -51,6 +50,7 @@ public class ArcaneHeartModTabs {
 					tabData.accept(ArcaneHeartModItems.DIRT_SPELLPAGE_ITEM.get());
 					tabData.accept(ArcaneHeartModItems.SANDSTONE_SPELLPAGE_ITEM.get());
 					tabData.accept(ArcaneHeartModItems.LIGHT_SPELLPAGE_ITEM.get());
+					tabData.accept(ArcaneHeartModItems.FIRE_SPELLPAGE.get());
 				}).withSearchBar());
 	}
 }
