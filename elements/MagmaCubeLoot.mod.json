@@ -14,7 +14,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:EntropyManaDrop"
+              "value": "CUSTOM:ArcaneManaDrop"
             },
             "weight": 15,
             "minCount": 1,
@@ -28,7 +28,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:ArcaneManaDrop"
+              "value": "CUSTOM:FireManaDrop"
             },
             "weight": 15,
             "minCount": 1,
@@ -42,7 +42,7 @@
         ]
       }
     ],
-    "name": "entities/enderman",
+    "name": "entities/magma_cube",
     "namespace": "minecraft"
   }
 }

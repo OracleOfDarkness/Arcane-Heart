@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 ",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "arcane_heart:arcane_mana_drop"
+    },
+    "2": {
+      "item": "arcane_heart:magic_bowl"
+    },
+    "3": {
+      "item": "arcane_heart:mortar_pestle"
+    }
+  },
+  "result": {
+    "item": "arcane_heart:bowl_of_mana",
+    "count": 1
+  }
+}

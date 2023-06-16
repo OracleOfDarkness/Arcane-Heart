@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 2",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "tag": "minecraft:planks"
+    },
+    "2": {
+      "tag": "minecraft:planks"
+    },
+    "3": {
+      "item": "arcane_heart:arcane_mana_drop"
+    },
+    "4": {
+      "tag": "minecraft:planks"
+    },
+    "5": {
+      "item": "arcane_heart:arcane_mana_drop"
+    }
+  },
+  "result": {
+    "item": "arcane_heart:magic_bowl",
+    "count": 1
+  }
+}

@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "water_1",
+    "texture": "water64",
     "customModelName": "Normal",
     "name": "Droplet of Water",
     "rarity": "COMMON",

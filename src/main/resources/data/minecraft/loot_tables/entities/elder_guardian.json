@@ -6,8 +6,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "arcane_heart:entropy_mana_drop",
-          "weight": 15,
+          "name": "arcane_heart:arcane_mana_drop",
+          "weight": 25,
           "functions": [
             {
               "function": "set_count",
@@ -25,8 +25,27 @@
         },
         {
           "type": "minecraft:item",
-          "name": "arcane_heart:arcane_mana_drop",
-          "weight": 15,
+          "name": "arcane_heart:water_mana_drop",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "arcane_heart:order_mana_drop",
+          "weight": 25,
           "functions": [
             {
               "function": "set_count",

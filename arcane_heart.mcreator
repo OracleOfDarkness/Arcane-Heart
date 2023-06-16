@@ -960,6 +960,104 @@
         ]
       },
       "path": "~/Loot Tables"
+    },
+    {
+      "name": "CreeperLoot",
+      "type": "loottable",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creeper_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/creeper.json"
+        ]
+      },
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "ElderGuardianLoot",
+      "type": "loottable",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elder_guardian_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/elder_guardian.json"
+        ]
+      },
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "GuardianLoot",
+      "type": "loottable",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guardian_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/guardian.json"
+        ]
+      },
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "MagmaCubeLoot",
+      "type": "loottable",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_cube_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/magma_cube.json"
+        ]
+      },
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "ManaBowlRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_bowl_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcane_heart/recipes/mana_bowl_recipe.json"
+        ]
+      },
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "MotarAndPestelRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "motar_and_pestel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcane_heart/recipes/motar_and_pestel_recipe.json"
+        ]
+      },
+      "path": "~/Items/Recipes"
+    },
+    {
+      "name": "BowlOfManaRecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bowl_of_mana_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcane_heart/recipes/bowl_of_mana_recipe.json"
+        ]
+      },
+      "path": "~/Items/Recipes"
     }
   ],
   "variable_elements": [],
@@ -987,8 +1085,8 @@
       "block.arcane_heart.arcane_mana": "Arcane Mana",
       "painting.arcane_heart.air_painting.title": "Air Painting",
       "item.arcane_heart.order_mana_potion": "Conflux of Order Potion",
-      "painting.arcane_heart.water_painting.author": "SuperBenji",
       "painting.arcane_heart.fire_painting.title": "Fire Painting",
+      "painting.arcane_heart.water_painting.author": "SuperBenji",
       "painting.arcane_heart.order_painting.author": "SuperBenji",
       "item.arcane_heart.fire_mana_drop": "Ember Of Fire",
       "item.arcane_heart.fire_mana_potion": "Ember of Fire Potion",

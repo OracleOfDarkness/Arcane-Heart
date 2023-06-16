@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "entropy_1",
+    "texture": "entropy64",
     "customModelName": "Normal",
     "name": "Tear of Entropy",
     "rarity": "COMMON",

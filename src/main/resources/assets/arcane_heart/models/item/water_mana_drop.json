@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "arcane_heart:item/water_1"
+    "layer0": "arcane_heart:item/water64"
   }
 }

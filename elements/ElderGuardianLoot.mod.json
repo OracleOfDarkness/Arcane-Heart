@@ -14,9 +14,9 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:EntropyManaDrop"
+              "value": "CUSTOM:ArcaneManaDrop"
             },
-            "weight": 15,
+            "weight": 25,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -28,9 +28,23 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:ArcaneManaDrop"
+              "value": "CUSTOM:WaterManaDrop"
             },
-            "weight": 15,
+            "weight": 25,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": true,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:OrderManaDrop"
+            },
+            "weight": 25,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -42,7 +56,7 @@
         ]
       }
     ],
-    "name": "entities/enderman",
+    "name": "entities/elder_guardian",
     "namespace": "minecraft"
   }
 }

@@ -14,7 +14,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:EntropyManaDrop"
+              "value": "CUSTOM:FireManaDrop"
             },
             "weight": 15,
             "minCount": 1,
@@ -38,11 +38,25 @@
             "affectedByFortune": true,
             "explosionDecay": false,
             "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:EntropyManaDrop"
+            },
+            "weight": 15,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": true,
+            "explosionDecay": false,
+            "silkTouchMode": 0
           }
         ]
       }
     ],
-    "name": "entities/enderman",
+    "name": "entities/creeper",
     "namespace": "minecraft"
   }
 }

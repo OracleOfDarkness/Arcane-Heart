@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Blocks.STONE"
+      },
+      {
+        "value": "CUSTOM:EarthManaDrop"
+      },
+      {
+        "value": "Blocks.STONE"
+      },
+      {
+        "value": "CUSTOM:ArcaneManaDrop"
+      },
+      {
+        "value": "Blocks.STONE"
+      },
+      {
+        "value": "CUSTOM:ArcaneManaDrop"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MortarPestle"
+    },
+    "name": "motar_and_pestel_recipe",
+    "namespace": "mod"
+  }
+}

@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "order_1",
+    "texture": "order64",
     "customModelName": "Normal",
     "name": "Conflux Of Order",
     "rarity": "COMMON",

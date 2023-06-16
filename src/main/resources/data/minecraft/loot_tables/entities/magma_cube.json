@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "arcane_heart:entropy_mana_drop",
+          "name": "arcane_heart:arcane_mana_drop",
           "weight": 15,
           "functions": [
             {
@@ -25,7 +25,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "arcane_heart:arcane_mana_drop",
+          "name": "arcane_heart:fire_mana_drop",
           "weight": 15,
           "functions": [
             {
