@@ -13,7 +13,7 @@
           "src/main/resources/assets/arcane_heart/models/item/arcane_mana_drop.json"
         ]
       },
-      "path": "~/Mana Drops"
+      "path": "~/Items/Mana Drops"
     },
     {
       "name": "ArcaneHeart",
@@ -44,7 +44,7 @@
           "src/main/resources/assets/arcane_heart/models/item/arcane_mana_bucket.json"
         ]
       },
-      "path": "~/Arcane"
+      "path": "~/Items/Arcane"
     },
     {
       "name": "BiggerBottle",
@@ -58,7 +58,8 @@
           "src/main/java/net/mcreator/arcaneheart/item/BiggerBottleItem.java",
           "src/main/resources/assets/arcane_heart/models/item/bigger_bottle.json"
         ]
-      }
+      },
+      "path": "~/Items"
     },
     {
       "name": "BiggerBottleRecipe",
@@ -72,7 +73,7 @@
           "src/main/resources/data/arcane_heart/recipes/bigger_bottle_recipe.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Items"
     },
     {
       "name": "EarthManaDrop",
@@ -87,7 +88,7 @@
           "src/main/java/net/mcreator/arcaneheart/item/EarthManaDropItem.java"
         ]
       },
-      "path": "~/Mana Drops"
+      "path": "~/Items/Mana Drops"
     },
     {
       "name": "WaterManaDrop",
@@ -102,7 +103,7 @@
           "src/main/resources/assets/arcane_heart/models/item/water_mana_drop.json"
         ]
       },
-      "path": "~/Mana Drops"
+      "path": "~/Items/Mana Drops"
     },
     {
       "name": "FireManaDrop",
@@ -117,7 +118,7 @@
           "src/main/java/net/mcreator/arcaneheart/item/FireManaDropItem.java"
         ]
       },
-      "path": "~/Mana Drops"
+      "path": "~/Items/Mana Drops"
     },
     {
       "name": "AirManaDrop",
@@ -132,7 +133,7 @@
           "src/main/resources/assets/arcane_heart/models/item/air_mana_drop.json"
         ]
       },
-      "path": "~/Mana Drops"
+      "path": "~/Items/Mana Drops"
     },
     {
       "name": "EntropyManaDrop",
@@ -147,7 +148,7 @@
           "src/main/resources/assets/arcane_heart/models/item/entropy_mana_drop.json"
         ]
       },
-      "path": "~/Mana Drops"
+      "path": "~/Items/Mana Drops"
     },
     {
       "name": "OrderManaDrop",
@@ -162,7 +163,7 @@
           "src/main/java/net/mcreator/arcaneheart/item/OrderManaDropItem.java"
         ]
       },
-      "path": "~/Mana Drops"
+      "path": "~/Items/Mana Drops"
     },
     {
       "name": "BottleOfMana",
@@ -177,7 +178,7 @@
           "src/main/resources/assets/arcane_heart/models/item/bottle_of_mana.json"
         ]
       },
-      "path": "~/Arcane"
+      "path": "~/Items/Arcane"
     },
     {
       "name": "BowlOfMana",
@@ -192,7 +193,7 @@
           "src/main/resources/assets/arcane_heart/models/item/bowl_of_mana.json"
         ]
       },
-      "path": "~/Arcane"
+      "path": "~/Items/Arcane"
     },
     {
       "name": "ArcaneManaPotion",
@@ -206,7 +207,7 @@
           "src/main/java/net/mcreator/arcaneheart/recipes/brewing/ArcaneManaPotionBrewingRecipe.java"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Items/Arcane"
     },
     {
       "name": "SpellbookGui",
@@ -220,7 +221,8 @@
           "src/main/java/net/mcreator/arcaneheart/client/gui/SpellbookGuiScreen.java",
           "src/main/java/net/mcreator/arcaneheart/world/inventory/SpellbookGuiMenu.java"
         ]
-      }
+      },
+      "path": "~/Gui"
     },
     {
       "name": "Spellbook",
@@ -235,7 +237,8 @@
           "src/main/java/net/mcreator/arcaneheart/item/inventory/SpellbookInventoryCapability.java",
           "src/main/resources/assets/arcane_heart/models/item/spellbook.json"
         ]
-      }
+      },
+      "path": "~/Items"
     },
     {
       "name": "Spellpages",
@@ -246,7 +249,8 @@
       "registry_name": "spellpages",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/Items/Spellpages"
     },
     {
       "name": "CobbleSpellpageItem",
@@ -261,7 +265,7 @@
           "src/main/resources/assets/arcane_heart/models/item/cobble_spellpage_item.json"
         ]
       },
-      "path": "~/Spellpages"
+      "path": "~/Items/Spellpages"
     },
     {
       "name": "CobbleSpellpage",
@@ -275,7 +279,7 @@
           "src/main/resources/data/arcane_heart/recipes/cobble_spellpage.json"
         ]
       },
-      "path": "~/Spellpages"
+      "path": "~/Items/Spellpages"
     },
     {
       "name": "SandSpellpageItem",
@@ -290,7 +294,7 @@
           "src/main/resources/assets/arcane_heart/models/item/sand_spellpage_item.json"
         ]
       },
-      "path": "~/Spellpages"
+      "path": "~/Items/Spellpages"
     },
     {
       "name": "SandSpellpage",
@@ -304,7 +308,7 @@
           "src/main/resources/data/arcane_heart/recipes/sand_spellpage.json"
         ]
       },
-      "path": "~/Spellpages"
+      "path": "~/Items/Spellpages"
     },
     {
       "name": "GravelSpellpageItem",
@@ -319,7 +323,7 @@
           "src/main/resources/assets/arcane_heart/models/item/gravel_spellpage_item.json"
         ]
       },
-      "path": "~/Spellpages"
+      "path": "~/Items/Spellpages"
     },
     {
       "name": "GravelSpellpage",
@@ -333,7 +337,7 @@
           "src/main/resources/data/arcane_heart/recipes/gravel_spellpage.json"
         ]
       },
-      "path": "~/Spellpages"
+      "path": "~/Items/Spellpages"
     },
     {
       "name": "StoneSpellpageItem",
@@ -348,7 +352,7 @@
           "src/main/java/net/mcreator/arcaneheart/item/StoneSpellpageItemItem.java"
         ]
       },
-      "path": "~/Spellpages"
+      "path": "~/Items/Spellpages"
     },
     {
       "name": "StoneSpellpage",
@@ -362,7 +366,7 @@
           "src/main/resources/data/arcane_heart/recipes/stone_spellpage.json"
         ]
       },
-      "path": "~/Spellpages"
+      "path": "~/Items/Spellpages"
     },
     {
       "name": "DirtSpellpageItem",
@@ -377,7 +381,7 @@
           "src/main/resources/assets/arcane_heart/models/item/dirt_spellpage_item.json"
         ]
       },
-      "path": "~/Spellpages"
+      "path": "~/Items/Spellpages"
     },
     {
       "name": "DirtSpellpage",
@@ -391,7 +395,7 @@
           "src/main/resources/data/arcane_heart/recipes/dirt_spellpage.json"
         ]
       },
-      "path": "~/Spellpages"
+      "path": "~/Items/Spellpages"
     },
     {
       "name": "SandstoneSpellpageItem",
@@ -406,7 +410,7 @@
           "src/main/resources/assets/arcane_heart/models/item/sandstone_spellpage_item.json"
         ]
       },
-      "path": "~/Spellpages"
+      "path": "~/Items/Spellpages"
     },
     {
       "name": "SandstoneSpellpage",
@@ -420,7 +424,7 @@
           "src/main/resources/data/arcane_heart/recipes/sandstone_spellpage.json"
         ]
       },
-      "path": "~/Spellpages"
+      "path": "~/Items/Spellpages"
     },
     {
       "name": "ArcanePainting",
@@ -432,7 +436,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/Painting"
+      "path": "~/Blocks/Painting"
     },
     {
       "name": "OrderPainting",
@@ -444,7 +448,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/Painting"
+      "path": "~/Blocks/Painting"
     },
     {
       "name": "EntropyPainting",
@@ -456,7 +460,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/Painting"
+      "path": "~/Blocks/Painting"
     },
     {
       "name": "FirePainting",
@@ -468,7 +472,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/Painting"
+      "path": "~/Blocks/Painting"
     },
     {
       "name": "WaterPainting",
@@ -480,7 +484,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/Painting"
+      "path": "~/Blocks/Painting"
     },
     {
       "name": "EarthPainting",
@@ -492,7 +496,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/Painting"
+      "path": "~/Blocks/Painting"
     },
     {
       "name": "AirPainting",
@@ -504,7 +508,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/Painting"
+      "path": "~/Blocks/Painting"
     }
   ],
   "variable_elements": [],
@@ -556,23 +560,33 @@
     "name": "~",
     "children": [
       {
-        "name": "Mana Drops",
-        "children": []
+        "name": "Items",
+        "children": [
+          {
+            "name": "Spellpages",
+            "children": []
+          },
+          {
+            "name": "Arcane",
+            "children": []
+          },
+          {
+            "name": "Mana Drops",
+            "children": []
+          }
+        ]
       },
       {
-        "name": "Recipes",
-        "children": []
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "Painting",
+            "children": []
+          }
+        ]
       },
       {
-        "name": "Arcane",
-        "children": []
-      },
-      {
-        "name": "Spellpages",
-        "children": []
-      },
-      {
-        "name": "Painting",
+        "name": "Gui",
         "children": []
       }
     ]
