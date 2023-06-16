@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "Spellpage",
+    "icon": {
+      "value": "CUSTOM:Spellbook"
+    },
+    "showSearch": true
+  }
+}

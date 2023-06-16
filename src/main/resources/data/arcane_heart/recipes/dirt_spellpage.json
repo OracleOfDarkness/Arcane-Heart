@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "arcane_heart:earth_mana_drop"
+    },
+    "3": {
+      "item": "arcane_heart:water_mana_drop"
+    },
+    "4": {
+      "item": "minecraft:paper"
+    },
+    "5": {
+      "item": "arcane_heart:earth_mana_drop"
+    },
+    "7": {
+      "item": "arcane_heart:bowl_of_mana"
+    }
+  },
+  "result": {
+    "item": "arcane_heart:dirt_spellpage_item",
+    "count": 1
+  }
+}

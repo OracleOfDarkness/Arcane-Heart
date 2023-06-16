@@ -33,5 +33,14 @@ public class ArcaneHeartModTabs {
 				})
 
 		);
+		event.registerCreativeModeTab(new ResourceLocation("arcane_heart", "spellpages"),
+				builder -> builder.title(Component.translatable("item_group.arcane_heart.spellpages")).icon(() -> new ItemStack(ArcaneHeartModItems.SPELLBOOK.get())).displayItems((parameters, tabData) -> {
+					tabData.accept(ArcaneHeartModItems.COBBLE_SPELLPAGE_ITEM.get());
+					tabData.accept(ArcaneHeartModItems.SAND_SPELLPAGE_ITEM.get());
+					tabData.accept(ArcaneHeartModItems.GRAVEL_SPELLPAGE_ITEM.get());
+					tabData.accept(ArcaneHeartModItems.STONE_SPELLPAGE_ITEM.get());
+					tabData.accept(ArcaneHeartModItems.DIRT_SPELLPAGE_ITEM.get());
+					tabData.accept(ArcaneHeartModItems.SANDSTONE_SPELLPAGE_ITEM.get());
+				}).withSearchBar());
 	}
 }

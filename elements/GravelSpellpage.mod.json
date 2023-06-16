@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EarthManaDrop"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:WaterManaDrop"
+      },
+      {
+        "value": "Items.PAPER"
+      },
+      {
+        "value": "CUSTOM:FireManaDrop"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BowlOfMana"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GravelSpellpageItem"
+    },
+    "name": "gravel_spellpage",
+    "namespace": "mod"
+  }
+}

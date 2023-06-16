@@ -236,27 +236,219 @@
           "src/main/resources/assets/arcane_heart/models/item/spellbook.json"
         ]
       }
+    },
+    {
+      "name": "Spellpages",
+      "type": "tab",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spellpages",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CobbleSpellpageItem",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_spellpage_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/item/CobbleSpellpageItemItem.java",
+          "src/main/resources/assets/arcane_heart/models/item/cobble_spellpage_item.json"
+        ]
+      },
+      "path": "~/Spellpages"
+    },
+    {
+      "name": "CobbleSpellpage",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobble_spellpage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcane_heart/recipes/cobble_spellpage.json"
+        ]
+      },
+      "path": "~/Spellpages"
+    },
+    {
+      "name": "SandSpellpageItem",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_spellpage_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/item/SandSpellpageItemItem.java",
+          "src/main/resources/assets/arcane_heart/models/item/sand_spellpage_item.json"
+        ]
+      },
+      "path": "~/Spellpages"
+    },
+    {
+      "name": "SandSpellpage",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_spellpage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcane_heart/recipes/sand_spellpage.json"
+        ]
+      },
+      "path": "~/Spellpages"
+    },
+    {
+      "name": "GravelSpellpageItem",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravel_spellpage_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/item/GravelSpellpageItemItem.java",
+          "src/main/resources/assets/arcane_heart/models/item/gravel_spellpage_item.json"
+        ]
+      },
+      "path": "~/Spellpages"
+    },
+    {
+      "name": "GravelSpellpage",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravel_spellpage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcane_heart/recipes/gravel_spellpage.json"
+        ]
+      },
+      "path": "~/Spellpages"
+    },
+    {
+      "name": "StoneSpellpageItem",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_spellpage_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/arcane_heart/models/item/stone_spellpage_item.json",
+          "src/main/java/net/mcreator/arcaneheart/item/StoneSpellpageItemItem.java"
+        ]
+      },
+      "path": "~/Spellpages"
+    },
+    {
+      "name": "StoneSpellpage",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_spellpage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcane_heart/recipes/stone_spellpage.json"
+        ]
+      },
+      "path": "~/Spellpages"
+    },
+    {
+      "name": "DirtSpellpageItem",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_spellpage_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/item/DirtSpellpageItemItem.java",
+          "src/main/resources/assets/arcane_heart/models/item/dirt_spellpage_item.json"
+        ]
+      },
+      "path": "~/Spellpages"
+    },
+    {
+      "name": "DirtSpellpage",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_spellpage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcane_heart/recipes/dirt_spellpage.json"
+        ]
+      },
+      "path": "~/Spellpages"
+    },
+    {
+      "name": "SandstoneSpellpageItem",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_spellpage_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/item/SandstoneSpellpageItemItem.java",
+          "src/main/resources/assets/arcane_heart/models/item/sandstone_spellpage_item.json"
+        ]
+      },
+      "path": "~/Spellpages"
+    },
+    {
+      "name": "SandstoneSpellpage",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandstone_spellpage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcane_heart/recipes/sandstone_spellpage.json"
+        ]
+      },
+      "path": "~/Spellpages"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.arcane_heart.sand_spellpage_item": "Sand Spellpage",
+      "item.arcane_heart.dirt_spellpage_item": "Dirt Spellpage",
+      "item.arcane_heart.cobble_spellpage_item": "Cobble Spellpage",
+      "item.arcane_heart.bigger_bottle": "Empty Bottle",
+      "item.arcane_heart.gravel_spellpage_item": "Gravel Spellpage",
+      "item_group.arcane_heart.arcane_heart": "Arcane Heart",
+      "item.arcane_heart.stone_spellpage_item": "Stone Spellpage",
+      "item.arcane_heart.order_mana_drop": "Conflux Of Order",
+      "gui.arcane_heart.spellbook_gui.label_superbenji": "SuperBenji",
+      "item_group.arcane_heart.spellpages": "Spellpage",
+      "fluid.arcane_heart.arcane_mana": "Arcane Mana",
+      "gui.arcane_heart.spellbook_gui.label_oracleofdarkness": "OracleOfDarkness",
+      "item.arcane_heart.arcane_mana_drop": "Heart of Mana",
       "item.arcane_heart.arcane_mana_bucket": "Arcane Mana Bucket",
+      "item.arcane_heart.sandstone_spellpage_item": "Sandstone Spellpage",
       "gui.arcane_heart.spellbook_gui.Search": "Search",
       "block.arcane_heart.arcane_mana": "Arcane Mana",
-      "item.arcane_heart.bigger_bottle": "Empty Bottle",
-      "item_group.arcane_heart.arcane_heart": "Arcane Heart",
-      "item.arcane_heart.order_mana_drop": "Conflux Of Order",
       "item.arcane_heart.spellbook": "Spellbook",
       "item.arcane_heart.water_mana_drop": "Droplet of Water",
-      "gui.arcane_heart.spellbook_gui.label_superbenji": "SuperBenji",
-      "fluid.arcane_heart.arcane_mana": "Arcane Mana",
       "item.arcane_heart.bottle_of_mana": "Bottle Of Mana",
       "item.arcane_heart.bowl_of_mana": "Bowl Of Mana",
       "item.arcane_heart.entropy_mana_drop": "Tear of Entropy",
-      "gui.arcane_heart.spellbook_gui.label_oracleofdarkness": "OracleOfDarkness",
-      "item.arcane_heart.arcane_mana_drop": "Heart of Mana",
       "item.arcane_heart.fire_mana_drop": "Ember Of Fire",
       "item.arcane_heart.air_mana_drop": "Gust Of Air",
       "item.arcane_heart.earth_mana_drop": "Fractal of Earth "
@@ -275,6 +467,10 @@
       },
       {
         "name": "Arcane",
+        "children": []
+      },
+      {
+        "name": "Spellpages",
         "children": []
       }
     ]

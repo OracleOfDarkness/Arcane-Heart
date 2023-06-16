@@ -11,11 +11,17 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.item.Item;
 
 import net.mcreator.arcaneheart.item.WaterManaDropItem;
+import net.mcreator.arcaneheart.item.StoneSpellpageItemItem;
 import net.mcreator.arcaneheart.item.SpellbookItem;
+import net.mcreator.arcaneheart.item.SandstoneSpellpageItemItem;
+import net.mcreator.arcaneheart.item.SandSpellpageItemItem;
 import net.mcreator.arcaneheart.item.OrderManaDropItem;
+import net.mcreator.arcaneheart.item.GravelSpellpageItemItem;
 import net.mcreator.arcaneheart.item.FireManaDropItem;
 import net.mcreator.arcaneheart.item.EntropyManaDropItem;
 import net.mcreator.arcaneheart.item.EarthManaDropItem;
+import net.mcreator.arcaneheart.item.DirtSpellpageItemItem;
+import net.mcreator.arcaneheart.item.CobbleSpellpageItemItem;
 import net.mcreator.arcaneheart.item.BowlOfManaItem;
 import net.mcreator.arcaneheart.item.BottleOfManaItem;
 import net.mcreator.arcaneheart.item.BiggerBottleItem;
@@ -38,4 +44,10 @@ public class ArcaneHeartModItems {
 	public static final RegistryObject<Item> BOTTLE_OF_MANA = REGISTRY.register("bottle_of_mana", () -> new BottleOfManaItem());
 	public static final RegistryObject<Item> BOWL_OF_MANA = REGISTRY.register("bowl_of_mana", () -> new BowlOfManaItem());
 	public static final RegistryObject<Item> SPELLBOOK = REGISTRY.register("spellbook", () -> new SpellbookItem());
+	public static final RegistryObject<Item> COBBLE_SPELLPAGE_ITEM = REGISTRY.register("cobble_spellpage_item", () -> new CobbleSpellpageItemItem());
+	public static final RegistryObject<Item> SAND_SPELLPAGE_ITEM = REGISTRY.register("sand_spellpage_item", () -> new SandSpellpageItemItem());
+	public static final RegistryObject<Item> GRAVEL_SPELLPAGE_ITEM = REGISTRY.register("gravel_spellpage_item", () -> new GravelSpellpageItemItem());
+	public static final RegistryObject<Item> STONE_SPELLPAGE_ITEM = REGISTRY.register("stone_spellpage_item", () -> new StoneSpellpageItemItem());
+	public static final RegistryObject<Item> DIRT_SPELLPAGE_ITEM = REGISTRY.register("dirt_spellpage_item", () -> new DirtSpellpageItemItem());
+	public static final RegistryObject<Item> SANDSTONE_SPELLPAGE_ITEM = REGISTRY.register("sandstone_spellpage_item", () -> new SandstoneSpellpageItemItem());
 }
