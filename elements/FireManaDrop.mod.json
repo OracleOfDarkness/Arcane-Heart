@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "ember_of_mana",
+    "texture": "fire_mana_drop",
     "customModelName": "Normal",
-    "name": "Ember Of Mana",
+    "name": "Fire Mana Drop",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:ArcaneHeart"
