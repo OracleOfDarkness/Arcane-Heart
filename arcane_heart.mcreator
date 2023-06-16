@@ -12,7 +12,8 @@
           "src/main/java/net/mcreator/arcaneheart/item/ArcaneManaDropItem.java",
           "src/main/resources/assets/arcane_heart/models/item/arcane_mana_drop.json"
         ]
-      }
+      },
+      "path": "~/Mana Drops"
     },
     {
       "name": "ArcaneHeart",
@@ -97,20 +98,8 @@
         "files": [
           "src/main/java/net/mcreator/arcaneheart/recipes/brewing/BottledArcaneManaRecipeBrewingRecipe.java"
         ]
-      }
-    },
-    {
-      "name": "ArcaneDropsLootTable",
-      "type": "loottable",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "arcane_drops_loot_table",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/arcane_heart/loot_tables/entities/enderman.json"
-        ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "BiggerBottleRecipe",
@@ -123,7 +112,8 @@
         "files": [
           "src/main/resources/data/arcane_heart/recipes/bigger_bottle_recipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "EarthManaDrop",
@@ -137,7 +127,8 @@
           "src/main/resources/assets/arcane_heart/models/item/earth_mana_drop.json",
           "src/main/java/net/mcreator/arcaneheart/item/EarthManaDropItem.java"
         ]
-      }
+      },
+      "path": "~/Mana Drops"
     },
     {
       "name": "WaterManaDrop",
@@ -151,7 +142,8 @@
           "src/main/java/net/mcreator/arcaneheart/item/WaterManaDropItem.java",
           "src/main/resources/assets/arcane_heart/models/item/water_mana_drop.json"
         ]
-      }
+      },
+      "path": "~/Mana Drops"
     },
     {
       "name": "FireManaDrop",
@@ -165,7 +157,8 @@
           "src/main/resources/assets/arcane_heart/models/item/fire_mana_drop.json",
           "src/main/java/net/mcreator/arcaneheart/item/FireManaDropItem.java"
         ]
-      }
+      },
+      "path": "~/Mana Drops"
     }
   ],
   "variable_elements": [],
@@ -187,7 +180,16 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Mana Drops",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "arcane_heart",
