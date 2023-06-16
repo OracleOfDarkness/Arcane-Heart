@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "order_mana_drop",
+    "texture": "order_1",
     "customModelName": "Normal",
-    "name": "Order Mana Drop",
+    "name": "Order Conflux",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:ArcaneHeart"

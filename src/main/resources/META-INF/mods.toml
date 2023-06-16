@@ -9,7 +9,7 @@ displayName="Arcane Heart"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 logoFile="logo.png"
-authors="OracleOfDarkness, MCreator"
+authors="OracleOfDarkness, SuperBenji9 MCreator"
 
 [[dependencies.arcane_heart]]
     modId="minecraft"
@@ -26,4 +26,16 @@ authors="OracleOfDarkness, MCreator"
     ordering="NONE"
     side="BOTH"
 
+[[dependencies.arcane_heart]]
+    modId="curios_api"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.arcane_heart]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

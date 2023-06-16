@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "water_mana_drop",
+    "texture": "water_1",
     "customModelName": "Normal",
-    "name": "Water Mana Drop",
+    "name": "Droplet of Mana",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:ArcaneHeart"

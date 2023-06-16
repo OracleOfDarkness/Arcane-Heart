@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "drop_of_mana",
+    "texture": "arcane_1",
     "customModelName": "Normal",
-    "name": "Arcane Mana Drop",
+    "name": "Heart of Mana",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:ArcaneHeart"

@@ -217,16 +217,16 @@
       "block.arcane_heart.arcane_mana": "Arcane Mana",
       "item.arcane_heart.bigger_bottle": "Bigger Bottle",
       "item_group.arcane_heart.arcane_heart": "Arcane Heart",
-      "item.arcane_heart.order_mana_drop": "Order Mana Drop",
+      "item.arcane_heart.order_mana_drop": "Order Conflux",
       "item.arcane_heart.bowl_of_arcane_mana": "Bowl Of Arcane Mana",
-      "item.arcane_heart.water_mana_drop": "Water Mana Drop",
+      "item.arcane_heart.water_mana_drop": "Droplet of Mana",
       "fluid.arcane_heart.arcane_mana": "Arcane Mana",
-      "item.arcane_heart.entropy_mana_drop": "Entropy Mana Drop",
+      "item.arcane_heart.entropy_mana_drop": "Entropy Tear",
       "item.arcane_heart.bottled_arcane_mana": "Bottled Arcane Mana",
-      "item.arcane_heart.arcane_mana_drop": "Arcane Mana Drop",
-      "item.arcane_heart.fire_mana_drop": "Fire Mana Drop",
-      "item.arcane_heart.air_mana_drop": "Air Mana Drop",
-      "item.arcane_heart.earth_mana_drop": "Earth Mana Drop"
+      "item.arcane_heart.arcane_mana_drop": "Heart of Mana",
+      "item.arcane_heart.fire_mana_drop": "Mana Ember",
+      "item.arcane_heart.air_mana_drop": "Gusty Mana",
+      "item.arcane_heart.earth_mana_drop": "Tectonic Mana"
     }
   },
   "foldersRoot": {
@@ -250,17 +250,19 @@
     "modid": "arcane_heart",
     "modName": "Arcane Heart",
     "version": "1.0.0",
-    "author": "OracleOfDarkness, MCreator",
+    "author": "OracleOfDarkness, SuperBenji9 MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "modPicture": "arcaneheart",
+    "modPicture": "oig",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
-      "mcreator_link"
+      "curios_api",
+      "mcreator_link",
+      "geckolib"
     ],
     "currentGenerator": "forge-1.19.4",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",

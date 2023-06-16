@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "entropy_mana_drop",
+    "texture": "entropy_1",
     "customModelName": "Normal",
-    "name": "Entropy Mana Drop",
+    "name": "Entropy Tear",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:ArcaneHeart"

@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "earth_mana_drop",
+    "texture": "earth_1",
     "customModelName": "Normal",
-    "name": "Earth Mana Drop",
+    "name": "Tectonic Mana",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:ArcaneHeart"

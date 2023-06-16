@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "air_mana_drop",
+    "texture": "air_1",
     "customModelName": "Normal",
-    "name": "Air Mana Drop",
+    "name": "Gusty Mana",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:ArcaneHeart"
