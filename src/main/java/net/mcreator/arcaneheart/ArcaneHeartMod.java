@@ -31,6 +31,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.arcaneheart.init.ArcaneHeartModMenus;
 import net.mcreator.arcaneheart.init.ArcaneHeartModItems;
 import net.mcreator.arcaneheart.init.ArcaneHeartModFluids;
 import net.mcreator.arcaneheart.init.ArcaneHeartModFluidTypes;
@@ -59,6 +60,8 @@ public class ArcaneHeartMod {
 
 		ArcaneHeartModFluids.REGISTRY.register(bus);
 		ArcaneHeartModFluidTypes.REGISTRY.register(bus);
+
+		ArcaneHeartModMenus.REGISTRY.register(bus);
 
 		GeckoLib.initialize();
 	}

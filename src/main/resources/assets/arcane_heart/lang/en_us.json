@@ -1,10 +1,13 @@
 {
   "item.arcane_heart.arcane_mana_bucket": "Arcane Mana Bucket",
+  "gui.arcane_heart.spellbook_gui.Search": "Search",
   "block.arcane_heart.arcane_mana": "Arcane Mana",
   "item.arcane_heart.bigger_bottle": "Empty Bottle",
   "item_group.arcane_heart.arcane_heart": "Arcane Heart",
   "item.arcane_heart.order_mana_drop": "Conflux Of Order",
+  "item.arcane_heart.spellbook": "Spellbook",
   "item.arcane_heart.water_mana_drop": "Droplet of Water",
+  "gui.arcane_heart.spellbook_gui.label_superbenji": "SuperBenji",
   "fluid.arcane_heart.arcane_mana": "Arcane Mana",
   "item.arcane_heart.bottle_of_mana": "Bottle Of Mana",
   "item.arcane_heart.bowl_of_mana": "Bowl Of Mana",

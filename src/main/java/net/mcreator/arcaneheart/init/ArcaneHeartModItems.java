@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.item.Item;
 
 import net.mcreator.arcaneheart.item.WaterManaDropItem;
+import net.mcreator.arcaneheart.item.SpellbookItem;
 import net.mcreator.arcaneheart.item.OrderManaDropItem;
 import net.mcreator.arcaneheart.item.FireManaDropItem;
 import net.mcreator.arcaneheart.item.EntropyManaDropItem;
@@ -36,4 +37,5 @@ public class ArcaneHeartModItems {
 	public static final RegistryObject<Item> ORDER_MANA_DROP = REGISTRY.register("order_mana_drop", () -> new OrderManaDropItem());
 	public static final RegistryObject<Item> BOTTLE_OF_MANA = REGISTRY.register("bottle_of_mana", () -> new BottleOfManaItem());
 	public static final RegistryObject<Item> BOWL_OF_MANA = REGISTRY.register("bowl_of_mana", () -> new BowlOfManaItem());
+	public static final RegistryObject<Item> SPELLBOOK = REGISTRY.register("spellbook", () -> new SpellbookItem());
 }

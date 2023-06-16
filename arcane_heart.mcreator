@@ -207,6 +207,35 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "SpellbookGui",
+      "type": "gui",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spellbook_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/client/gui/SpellbookGuiScreen.java",
+          "src/main/java/net/mcreator/arcaneheart/world/inventory/SpellbookGuiMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Spellbook",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spellbook",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/item/SpellbookItem.java",
+          "src/main/java/net/mcreator/arcaneheart/item/inventory/SpellbookInventoryCapability.java",
+          "src/main/resources/assets/arcane_heart/models/item/spellbook.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -214,11 +243,14 @@
   "language_map": {
     "en_us": {
       "item.arcane_heart.arcane_mana_bucket": "Arcane Mana Bucket",
+      "gui.arcane_heart.spellbook_gui.Search": "Search",
       "block.arcane_heart.arcane_mana": "Arcane Mana",
       "item.arcane_heart.bigger_bottle": "Empty Bottle",
       "item_group.arcane_heart.arcane_heart": "Arcane Heart",
       "item.arcane_heart.order_mana_drop": "Conflux Of Order",
+      "item.arcane_heart.spellbook": "Spellbook",
       "item.arcane_heart.water_mana_drop": "Droplet of Water",
+      "gui.arcane_heart.spellbook_gui.label_superbenji": "SuperBenji",
       "fluid.arcane_heart.arcane_mana": "Arcane Mana",
       "item.arcane_heart.bottle_of_mana": "Bottle Of Mana",
       "item.arcane_heart.bowl_of_mana": "Bowl Of Mana",
