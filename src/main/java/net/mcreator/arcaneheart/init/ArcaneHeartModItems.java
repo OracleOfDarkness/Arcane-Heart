@@ -16,6 +16,7 @@ import net.mcreator.arcaneheart.item.SpellbookItem;
 import net.mcreator.arcaneheart.item.SandstoneSpellpageItemItem;
 import net.mcreator.arcaneheart.item.SandSpellpageItemItem;
 import net.mcreator.arcaneheart.item.OrderManaDropItem;
+import net.mcreator.arcaneheart.item.LightSpellpageItemItem;
 import net.mcreator.arcaneheart.item.GravelSpellpageItemItem;
 import net.mcreator.arcaneheart.item.FireManaDropItem;
 import net.mcreator.arcaneheart.item.EntropyManaDropItem;
@@ -50,4 +51,5 @@ public class ArcaneHeartModItems {
 	public static final RegistryObject<Item> STONE_SPELLPAGE_ITEM = REGISTRY.register("stone_spellpage_item", () -> new StoneSpellpageItemItem());
 	public static final RegistryObject<Item> DIRT_SPELLPAGE_ITEM = REGISTRY.register("dirt_spellpage_item", () -> new DirtSpellpageItemItem());
 	public static final RegistryObject<Item> SANDSTONE_SPELLPAGE_ITEM = REGISTRY.register("sandstone_spellpage_item", () -> new SandstoneSpellpageItemItem());
+	public static final RegistryObject<Item> LIGHT_SPELLPAGE_ITEM = REGISTRY.register("light_spellpage_item", () -> new LightSpellpageItemItem());
 }

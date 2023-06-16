@@ -41,6 +41,7 @@ public class ArcaneHeartModTabs {
 					tabData.accept(ArcaneHeartModItems.STONE_SPELLPAGE_ITEM.get());
 					tabData.accept(ArcaneHeartModItems.DIRT_SPELLPAGE_ITEM.get());
 					tabData.accept(ArcaneHeartModItems.SANDSTONE_SPELLPAGE_ITEM.get());
+					tabData.accept(ArcaneHeartModItems.LIGHT_SPELLPAGE_ITEM.get());
 				}).withSearchBar());
 	}
 }

@@ -73,7 +73,7 @@
           "src/main/resources/data/arcane_heart/recipes/bigger_bottle_recipe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Recipes"
     },
     {
       "name": "EarthManaDrop",
@@ -207,7 +207,7 @@
           "src/main/java/net/mcreator/arcaneheart/recipes/brewing/ArcaneManaPotionBrewingRecipe.java"
         ]
       },
-      "path": "~/Items/Arcane"
+      "path": "~/Items/Recipes"
     },
     {
       "name": "SpellbookGui",
@@ -279,7 +279,7 @@
           "src/main/resources/data/arcane_heart/recipes/cobble_spellpage.json"
         ]
       },
-      "path": "~/Items/Spellpages"
+      "path": "~/Items/Recipes"
     },
     {
       "name": "SandSpellpageItem",
@@ -308,7 +308,7 @@
           "src/main/resources/data/arcane_heart/recipes/sand_spellpage.json"
         ]
       },
-      "path": "~/Items/Spellpages"
+      "path": "~/Items/Recipes"
     },
     {
       "name": "GravelSpellpageItem",
@@ -337,7 +337,7 @@
           "src/main/resources/data/arcane_heart/recipes/gravel_spellpage.json"
         ]
       },
-      "path": "~/Items/Spellpages"
+      "path": "~/Items/Recipes"
     },
     {
       "name": "StoneSpellpageItem",
@@ -366,7 +366,7 @@
           "src/main/resources/data/arcane_heart/recipes/stone_spellpage.json"
         ]
       },
-      "path": "~/Items/Spellpages"
+      "path": "~/Items/Recipes"
     },
     {
       "name": "DirtSpellpageItem",
@@ -395,7 +395,7 @@
           "src/main/resources/data/arcane_heart/recipes/dirt_spellpage.json"
         ]
       },
-      "path": "~/Items/Spellpages"
+      "path": "~/Items/Recipes"
     },
     {
       "name": "SandstoneSpellpageItem",
@@ -424,7 +424,7 @@
           "src/main/resources/data/arcane_heart/recipes/sandstone_spellpage.json"
         ]
       },
-      "path": "~/Items/Spellpages"
+      "path": "~/Items/Recipes"
     },
     {
       "name": "ArcanePainting",
@@ -509,6 +509,35 @@
         "files": []
       },
       "path": "~/Blocks/Painting"
+    },
+    {
+      "name": "LightSpellpageItem",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_spellpage_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/arcane_heart/models/item/light_spellpage_item.json",
+          "src/main/java/net/mcreator/arcaneheart/item/LightSpellpageItemItem.java"
+        ]
+      },
+      "path": "~/Items/Spellpages"
+    },
+    {
+      "name": "LightSpellpage",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_spellpage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcane_heart/recipes/light_spellpage.json"
+        ]
+      },
+      "path": "~/Items/Recipes"
     }
   ],
   "variable_elements": [],
@@ -532,6 +561,7 @@
       "item.arcane_heart.arcane_mana_drop": "Heart of Mana",
       "painting.arcane_heart.arcane_painting.title": "Arcane Painting",
       "painting.arcane_heart.entropy_painting.title": "Entropy Painting",
+      "item.arcane_heart.light_spellpage_item": "Light Spellpage",
       "item.arcane_heart.arcane_mana_bucket": "Arcane Mana Bucket",
       "item.arcane_heart.sandstone_spellpage_item": "Sandstone Spellpage",
       "painting.arcane_heart.order_painting.title": "Order Painting",
@@ -572,6 +602,34 @@
           },
           {
             "name": "Mana Drops",
+            "children": []
+          },
+          {
+            "name": "Recipes",
+            "children": []
+          },
+          {
+            "name": "Earth",
+            "children": []
+          },
+          {
+            "name": "Fire",
+            "children": []
+          },
+          {
+            "name": "Air",
+            "children": []
+          },
+          {
+            "name": "Water",
+            "children": []
+          },
+          {
+            "name": "Entropy",
+            "children": []
+          },
+          {
+            "name": "Order",
             "children": []
           }
         ]
