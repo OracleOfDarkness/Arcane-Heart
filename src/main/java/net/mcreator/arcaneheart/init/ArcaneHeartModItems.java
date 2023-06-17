@@ -18,6 +18,7 @@ import net.mcreator.arcaneheart.item.SandstoneSpellpageItemItem;
 import net.mcreator.arcaneheart.item.SandSpellpageItemItem;
 import net.mcreator.arcaneheart.item.OrderManaPotionItem;
 import net.mcreator.arcaneheart.item.OrderManaDropItem;
+import net.mcreator.arcaneheart.item.OrderIdolItem;
 import net.mcreator.arcaneheart.item.MortarPestleItem;
 import net.mcreator.arcaneheart.item.MagicBowlItem;
 import net.mcreator.arcaneheart.item.LightSpellpageItemItem;
@@ -72,4 +73,5 @@ public class ArcaneHeartModItems {
 	public static final RegistryObject<Item> MAGIC_BOWL = REGISTRY.register("magic_bowl", () -> new MagicBowlItem());
 	public static final RegistryObject<Item> FIRE_SPELLPAGE = REGISTRY.register("fire_spellpage", () -> new FireSpellpageItem());
 	public static final RegistryObject<Item> CLAY_SPELLPAGE = REGISTRY.register("clay_spellpage", () -> new ClaySpellpageItem());
+	public static final RegistryObject<Item> ORDER_IDOL = REGISTRY.register("order_idol", () -> new OrderIdolItem());
 }
