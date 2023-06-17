@@ -31,6 +31,7 @@ import net.mcreator.arcaneheart.item.EarthManaPotionItem;
 import net.mcreator.arcaneheart.item.EarthManaDropItem;
 import net.mcreator.arcaneheart.item.DirtSpellpageItemItem;
 import net.mcreator.arcaneheart.item.CobbleSpellpageItemItem;
+import net.mcreator.arcaneheart.item.ClaySpellpageItem;
 import net.mcreator.arcaneheart.item.BowlOfManaItem;
 import net.mcreator.arcaneheart.item.BottleOfManaItem;
 import net.mcreator.arcaneheart.item.BiggerBottleItem;
@@ -70,4 +71,5 @@ public class ArcaneHeartModItems {
 	public static final RegistryObject<Item> MORTAR_PESTLE = REGISTRY.register("mortar_pestle", () -> new MortarPestleItem());
 	public static final RegistryObject<Item> MAGIC_BOWL = REGISTRY.register("magic_bowl", () -> new MagicBowlItem());
 	public static final RegistryObject<Item> FIRE_SPELLPAGE = REGISTRY.register("fire_spellpage", () -> new FireSpellpageItem());
+	public static final RegistryObject<Item> CLAY_SPELLPAGE = REGISTRY.register("clay_spellpage", () -> new ClaySpellpageItem());
 }

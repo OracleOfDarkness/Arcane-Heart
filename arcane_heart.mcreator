@@ -1206,6 +1206,35 @@
         ]
       },
       "path": "~/Loot Tables"
+    },
+    {
+      "name": "ClaySpellpage",
+      "type": "item",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clay_spellpage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/item/ClaySpellpageItem.java",
+          "src/main/resources/assets/arcane_heart/models/item/clay_spellpage.json"
+        ]
+      },
+      "path": "~/Items/Spellpages"
+    },
+    {
+      "name": "ClaySpellpageRecipe",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clay_spellpage_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcane_heart/recipes/clay_spellpage_recipe.json"
+        ]
+      },
+      "path": "~/Items/Recipes"
     }
   ],
   "variable_elements": [],
@@ -1243,6 +1272,7 @@
       "painting.arcane_heart.earth_painting.author": "SuperBenji",
       "item.arcane_heart.sand_spellpage_item": "Sand Spellpage",
       "item.arcane_heart.air_mana_potion": "Gust of Air Potion",
+      "item.arcane_heart.clay_spellpage": "Clay Spellpage",
       "item_group.arcane_heart.arcane_heart": "Arcane Heart",
       "item.arcane_heart.mortar_pestle": "Mortar \u0026 Pestle",
       "gui.arcane_heart.spellbook_gui.label_superbenji": "SuperBenji",
@@ -1335,6 +1365,10 @@
       },
       {
         "name": "Loot Tables",
+        "children": []
+      },
+      {
+        "name": "Curios",
         "children": []
       }
     ]
