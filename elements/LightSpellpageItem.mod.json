@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "spellpage",
     "customModelName": "Normal",
-    "name": "Light Spellpage",
+    "name": "Magelight Spellpage",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Spellpages"

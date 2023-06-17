@@ -52,7 +52,7 @@ public class SpellbookGuiScreen extends AbstractContainerScreen<SpellbookGuiMenu
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("arcane_heart:textures/screens/spellbook_overlay512.png"));
-		this.blit(ms, this.leftPos + -35, this.topPos + -45, 0, 0, 256, 256, 256, 256);
+		this.blit(ms, this.leftPos + -33, this.topPos + -44, 0, 0, 256, 256, 256, 256);
 
 		RenderSystem.disableBlend();
 	}
