@@ -9,6 +9,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.monster.EnderMan;
 
+import net.mcreator.arcaneheart.procedures.OrderIdolWhileBaubleIsEquippedTickProcedure;
+
 public class OrderIdolItem extends Item implements ICurioItem {
 	public OrderIdolItem() {
 		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
@@ -22,5 +24,10 @@ public class OrderIdolItem extends Item implements ICurioItem {
 	@Override
 	public boolean isEnderMask(SlotContext slotContext, EnderMan enderMan, ItemStack stack) {
 		return true;
+	}
+
+	@Override
+	public void curioTick(SlotContext slotContext, ItemStack stack) {
+		OrderIdolWhileBaubleIsEquippedTickProcedure.execute(slotContext.entity());
 	}
 }
