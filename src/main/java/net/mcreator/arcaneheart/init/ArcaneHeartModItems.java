@@ -26,6 +26,7 @@ import net.mcreator.arcaneheart.item.GravelSpellpageItemItem;
 import net.mcreator.arcaneheart.item.FireSpellpageItem;
 import net.mcreator.arcaneheart.item.FireManaPotionItem;
 import net.mcreator.arcaneheart.item.FireManaDropItem;
+import net.mcreator.arcaneheart.item.EntropyRingItem;
 import net.mcreator.arcaneheart.item.EntropyManaPotionItem;
 import net.mcreator.arcaneheart.item.EntropyManaDropItem;
 import net.mcreator.arcaneheart.item.EarthManaPotionItem;
@@ -74,4 +75,5 @@ public class ArcaneHeartModItems {
 	public static final RegistryObject<Item> FIRE_SPELLPAGE = REGISTRY.register("fire_spellpage", () -> new FireSpellpageItem());
 	public static final RegistryObject<Item> CLAY_SPELLPAGE = REGISTRY.register("clay_spellpage", () -> new ClaySpellpageItem());
 	public static final RegistryObject<Item> ORDER_IDOL = REGISTRY.register("order_idol", () -> new OrderIdolItem());
+	public static final RegistryObject<Item> ENTROPY_RING = REGISTRY.register("entropy_ring", () -> new EntropyRingItem());
 }
