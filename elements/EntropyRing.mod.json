@@ -13,7 +13,7 @@
     "creativeTab": {
       "value": "CUSTOM:ArcaneHeart"
     },
-    "stackSize": 64,
+    "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -34,9 +34,15 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "slotAmount": 1,
+    "curioTick": {
+      "name": "EntropyRingWhileBaubleIsEquippedTick"
+    },
+    "onUnequip": {
+      "name": "EntropyRingBaubleIsUnequipped"
+    },
     "isFood": false,
     "friendlyPigs": false,
-    "enderMask": false,
+    "enderMask": true,
     "rotateModel": false,
     "translateModel": false,
     "nutritionalValue": 4,

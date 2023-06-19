@@ -7,13 +7,13 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.util.RandomSource;
 import net.minecraft.util.Mth;
 
-public class OrderIdolWhileBaubleIsEquippedTickProcedure {
+public class EntropyRingWhileBaubleIsEquippedTickProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.LUCK, (int) Mth.nextDouble(RandomSource.create(), 1, 10), 0));
+			_entity.addEffect(new MobEffectInstance(MobEffects.ABSORPTION, (int) Mth.nextDouble(RandomSource.create(), 1, 10), 0));
 		if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, (int) Mth.nextDouble(RandomSource.create(), 1, 10), 0));
+			_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, (int) Mth.nextDouble(RandomSource.create(), 1, 10), 0));
 	}
 }

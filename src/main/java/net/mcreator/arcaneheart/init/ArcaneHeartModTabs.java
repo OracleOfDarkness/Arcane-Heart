@@ -40,6 +40,7 @@ public class ArcaneHeartModTabs {
 					tabData.accept(ArcaneHeartModItems.MAGIC_BOWL.get());
 					tabData.accept(ArcaneHeartModItems.ORDER_IDOL.get());
 					tabData.accept(ArcaneHeartModItems.ENTROPY_RING.get());
+					tabData.accept(ArcaneHeartModItems.ARCANE_RING.get());
 				})
 
 		);

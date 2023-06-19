@@ -37,6 +37,7 @@ import net.mcreator.arcaneheart.item.ClaySpellpageItem;
 import net.mcreator.arcaneheart.item.BowlOfManaItem;
 import net.mcreator.arcaneheart.item.BottleOfManaItem;
 import net.mcreator.arcaneheart.item.BiggerBottleItem;
+import net.mcreator.arcaneheart.item.ArcaneRingItem;
 import net.mcreator.arcaneheart.item.ArcaneManaItem;
 import net.mcreator.arcaneheart.item.ArcaneManaDropItem;
 import net.mcreator.arcaneheart.item.AirManaPotionItem;
@@ -76,4 +77,5 @@ public class ArcaneHeartModItems {
 	public static final RegistryObject<Item> CLAY_SPELLPAGE = REGISTRY.register("clay_spellpage", () -> new ClaySpellpageItem());
 	public static final RegistryObject<Item> ORDER_IDOL = REGISTRY.register("order_idol", () -> new OrderIdolItem());
 	public static final RegistryObject<Item> ENTROPY_RING = REGISTRY.register("entropy_ring", () -> new EntropyRingItem());
+	public static final RegistryObject<Item> ARCANE_RING = REGISTRY.register("arcane_ring", () -> new ArcaneRingItem());
 }

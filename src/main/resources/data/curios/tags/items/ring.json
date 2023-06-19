@@ -2,6 +2,7 @@
   "replace": "false",
   "values": [
     "minecraft:air",
-    "arcane_heart:entropy_ring"
+    "arcane_heart:entropy_ring",
+    "arcane_heart:arcane_ring"
   ]
 }

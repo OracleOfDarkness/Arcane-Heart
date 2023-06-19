@@ -3,11 +3,11 @@
   "_type": "curiosbauble",
   "definition": {
     "renderType": 0,
-    "texture": "ordercurio64",
+    "texture": "arcane_ring",
     "customModelName": "Normal",
-    "name": "Idol of Order",
+    "name": "Arcane Ring",
     "rarity": "COMMON",
-    "slotType": "CHARM",
+    "slotType": "RING",
     "baubleModel": "Default",
     "baubleModelTexture": "",
     "creativeTab": {
@@ -35,14 +35,11 @@
     "inventoryStackSize": 64,
     "slotAmount": 1,
     "curioTick": {
-      "name": "OrderIdolWhileBaubleIsEquippedTick"
-    },
-    "onUnequip": {
-      "name": "OrderIdolBaubleIsUnequipped"
+      "name": "ArcaneRingWhileBaubleIsEquippedTick"
     },
     "isFood": false,
-    "friendlyPigs": false,
-    "enderMask": false,
+    "friendlyPigs": true,
+    "enderMask": true,
     "rotateModel": false,
     "translateModel": false,
     "nutritionalValue": 4,
