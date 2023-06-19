@@ -10,6 +10,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.monster.EnderMan;
 
 import net.mcreator.arcaneheart.procedures.OrderIdolWhileBaubleIsEquippedTickProcedure;
+import net.mcreator.arcaneheart.procedures.OrderIdolBaubleIsUnequippedProcedure;
 
 public class OrderIdolItem extends Item implements ICurioItem {
 	public OrderIdolItem() {
@@ -29,5 +30,10 @@ public class OrderIdolItem extends Item implements ICurioItem {
 	@Override
 	public void curioTick(SlotContext slotContext, ItemStack stack) {
 		OrderIdolWhileBaubleIsEquippedTickProcedure.execute(slotContext.entity());
+	}
+
+	@Override
+	public void onUnequip(SlotContext slotContext, ItemStack newStack, ItemStack stack) {
+		OrderIdolBaubleIsUnequippedProcedure.execute(slotContext.entity());
 	}
 }

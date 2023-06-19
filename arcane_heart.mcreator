@@ -1269,7 +1269,42 @@
           }
         ]
       },
-      "path": "~/Curios"
+      "path": "~/Procedures"
+    },
+    {
+      "name": "SummonersRing",
+      "type": "gui",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summoners_ring",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/world/inventory/SummonersRingMenu.java",
+          "src/main/java/net/mcreator/arcaneheart/client/gui/SummonersRingScreen.java"
+        ]
+      },
+      "path": "~/Gui"
+    },
+    {
+      "name": "OrderIdolBaubleIsUnequipped",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "order_idol_bauble_is_unequipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/arcaneheart/procedures/OrderIdolBaubleIsUnequippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [],
@@ -1280,9 +1315,9 @@
       "item.arcane_heart.cobble_spellpage_item": "Cobblestone Spellpage",
       "item.arcane_heart.bigger_bottle": "Empty Bottle",
       "item.arcane_heart.gravel_spellpage_item": "Gravel Spellpage",
-      "gui.arcane_heart.spellbook_gui.button_summon_cobblestone": "Summon Cobblestone",
-      "item.arcane_heart.stone_spellpage_item": "Stone Spellpage",
       "painting.arcane_heart.earth_painting.title": "Earth Painting",
+      "item.arcane_heart.stone_spellpage_item": "Stone Spellpage",
+      "gui.arcane_heart.spellbook_gui.button_summon_cobblestone": "Summon Cobblestone",
       "item.arcane_heart.order_mana_drop": "Conflux Of Order",
       "item.arcane_heart.entropy_mana_potion": "Tear of Entropy Potion",
       "item.arcane_heart.water_mana_potion": "Droplet of Water Potion",
@@ -1292,16 +1327,16 @@
       "item.arcane_heart.arcane_mana_drop": "Heart of Mana",
       "painting.arcane_heart.arcane_painting.title": "Arcane Painting",
       "item.arcane_heart.light_spellpage_item": "Magelight Spellpage",
-      "item.arcane_heart.sandstone_spellpage_item": "Sandstone Spellpage",
-      "painting.arcane_heart.entropy_painting.author": "SuperBenji",
       "item.arcane_heart.fire_spellpage": "Fire Touch Spellpage",
+      "painting.arcane_heart.entropy_painting.author": "SuperBenji",
+      "item.arcane_heart.sandstone_spellpage_item": "Sandstone Spellpage",
       "gui.arcane_heart.spellbook_gui.Search": "Search",
       "item.arcane_heart.order_idol": "Idol of Order",
       "block.arcane_heart.arcane_mana": "Arcane Mana",
       "painting.arcane_heart.air_painting.title": "Air Painting",
       "item.arcane_heart.order_mana_potion": "Conflux of Order Potion",
-      "painting.arcane_heart.water_painting.author": "SuperBenji",
       "painting.arcane_heart.fire_painting.title": "Fire Painting",
+      "painting.arcane_heart.water_painting.author": "SuperBenji",
       "painting.arcane_heart.order_painting.author": "SuperBenji",
       "item.arcane_heart.fire_mana_drop": "Ember Of Fire",
       "item.arcane_heart.fire_mana_potion": "Ember of Fire Potion",

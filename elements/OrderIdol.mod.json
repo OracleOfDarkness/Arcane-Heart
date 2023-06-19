@@ -37,6 +37,9 @@
     "curioTick": {
       "name": "OrderIdolWhileBaubleIsEquippedTick"
     },
+    "onUnequip": {
+      "name": "OrderIdolBaubleIsUnequipped"
+    },
     "isFood": false,
     "friendlyPigs": true,
     "enderMask": true,
