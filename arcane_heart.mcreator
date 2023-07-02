@@ -958,7 +958,7 @@
           "src/main/resources/data/minecraft/loot_tables/entities/enderman.json"
         ]
       },
-      "path": "~/Loot Tables"
+      "path": "~/Loot Tables/Provokable"
     },
     {
       "name": "CreeperLoot",
@@ -972,7 +972,7 @@
           "src/main/resources/data/minecraft/loot_tables/entities/creeper.json"
         ]
       },
-      "path": "~/Loot Tables"
+      "path": "~/Loot Tables/Hostile"
     },
     {
       "name": "ElderGuardianLoot",
@@ -986,7 +986,7 @@
           "src/main/resources/data/minecraft/loot_tables/entities/elder_guardian.json"
         ]
       },
-      "path": "~/Loot Tables"
+      "path": "~/Loot Tables/Hostile"
     },
     {
       "name": "GuardianLoot",
@@ -1000,7 +1000,7 @@
           "src/main/resources/data/minecraft/loot_tables/entities/guardian.json"
         ]
       },
-      "path": "~/Loot Tables"
+      "path": "~/Loot Tables/Hostile"
     },
     {
       "name": "MagmaCubeLoot",
@@ -1014,7 +1014,7 @@
           "src/main/resources/data/minecraft/loot_tables/entities/magma_cube.json"
         ]
       },
-      "path": "~/Loot Tables"
+      "path": "~/Loot Tables/Hostile"
     },
     {
       "name": "ManaBowlRecipe",
@@ -1070,7 +1070,7 @@
           "src/main/resources/data/minecraft/loot_tables/entities/squid.json"
         ]
       },
-      "path": "~/Loot Tables"
+      "path": "~/Loot Tables/Passive "
     },
     {
       "name": "StrayLoot",
@@ -1084,7 +1084,7 @@
           "src/main/resources/data/minecraft/loot_tables/entities/stray.json"
         ]
       },
-      "path": "~/Loot Tables"
+      "path": "~/Loot Tables/Hostile"
     },
     {
       "name": "SlimeLoot",
@@ -1098,7 +1098,7 @@
           "src/main/resources/data/minecraft/loot_tables/entities/slime.json"
         ]
       },
-      "path": "~/Loot Tables"
+      "path": "~/Loot Tables/Hostile"
     },
     {
       "name": "SkeletonLoot",
@@ -1112,7 +1112,7 @@
           "src/main/resources/data/minecraft/loot_tables/entities/skeleton.json"
         ]
       },
-      "path": "~/Loot Tables"
+      "path": "~/Loot Tables/Hostile"
     },
     {
       "name": "WitchLoot",
@@ -1126,7 +1126,7 @@
           "src/main/resources/data/minecraft/loot_tables/entities/witch.json"
         ]
       },
-      "path": "~/Loot Tables"
+      "path": "~/Loot Tables/Hostile"
     },
     {
       "name": "FireSpellpageRightclickedOnBlock",
@@ -1407,6 +1407,62 @@
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "BlazeLoot",
+      "type": "loottable",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blaze_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/blaze.json"
+        ]
+      },
+      "path": "~/Loot Tables/Hostile"
+    },
+    {
+      "name": "DrownedLoot",
+      "type": "loottable",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drowned_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/drowned.json"
+        ]
+      },
+      "path": "~/Loot Tables/Hostile"
+    },
+    {
+      "name": "EndermiteLoot",
+      "type": "loottable",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endermite_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/endermite.json"
+        ]
+      },
+      "path": "~/Loot Tables/Hostile"
+    },
+    {
+      "name": "EvokerLoot",
+      "type": "loottable",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evoker_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/evoker.json"
+        ]
+      },
+      "path": "~/Loot Tables/Hostile"
     }
   ],
   "variable_elements": [],
@@ -1418,9 +1474,9 @@
       "item.arcane_heart.cobble_spellpage_item": "Cobblestone Spellpage",
       "item.arcane_heart.bigger_bottle": "Empty Bottle",
       "item.arcane_heart.gravel_spellpage_item": "Gravel Spellpage",
-      "painting.arcane_heart.earth_painting.title": "Earth Painting",
-      "item.arcane_heart.stone_spellpage_item": "Stone Spellpage",
       "gui.arcane_heart.spellbook_gui.button_summon_cobblestone": "Summon Cobblestone",
+      "item.arcane_heart.stone_spellpage_item": "Stone Spellpage",
+      "painting.arcane_heart.earth_painting.title": "Earth Painting",
       "item.arcane_heart.order_mana_drop": "Conflux Of Order",
       "item.arcane_heart.entropy_mana_potion": "Tear of Entropy Potion",
       "item.arcane_heart.water_mana_potion": "Droplet of Water Potion",
@@ -1430,17 +1486,17 @@
       "item.arcane_heart.arcane_mana_drop": "Heart of Mana",
       "painting.arcane_heart.arcane_painting.title": "Arcane Painting",
       "item.arcane_heart.light_spellpage_item": "Magelight Spellpage",
-      "item.arcane_heart.fire_spellpage": "Fire Touch Spellpage",
-      "painting.arcane_heart.entropy_painting.author": "SuperBenji",
       "item.arcane_heart.sandstone_spellpage_item": "Sandstone Spellpage",
+      "painting.arcane_heart.entropy_painting.author": "SuperBenji",
+      "item.arcane_heart.fire_spellpage": "Fire Touch Spellpage",
       "gui.arcane_heart.spellbook_gui.Search": "Search",
       "item.arcane_heart.order_idol": "Idol of Order",
       "block.arcane_heart.arcane_mana": "Arcane Mana",
       "painting.arcane_heart.air_painting.title": "Air Painting",
       "item.arcane_heart.arcane_ring": "Arcane Ring",
       "item.arcane_heart.order_mana_potion": "Conflux of Order Potion",
-      "painting.arcane_heart.fire_painting.title": "Fire Painting",
       "painting.arcane_heart.water_painting.author": "SuperBenji",
+      "painting.arcane_heart.fire_painting.title": "Fire Painting",
       "painting.arcane_heart.order_painting.author": "SuperBenji",
       "item.arcane_heart.fire_mana_drop": "Ember Of Fire",
       "item.arcane_heart.fire_mana_potion": "Ember of Fire Potion",
@@ -1540,7 +1596,20 @@
       },
       {
         "name": "Loot Tables",
-        "children": []
+        "children": [
+          {
+            "name": "Hostile",
+            "children": []
+          },
+          {
+            "name": "Passive ",
+            "children": []
+          },
+          {
+            "name": "Provokable",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Curios",
