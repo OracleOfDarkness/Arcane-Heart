@@ -1841,6 +1841,216 @@
         ]
       },
       "path": "~/Loot Tables/Passive "
+    },
+    {
+      "name": "GhastLoot",
+      "type": "loottable",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghast_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/ghast.json"
+        ]
+      },
+      "path": "~/Loot Tables/Hostile"
+    },
+    {
+      "name": "HoglinLoot",
+      "type": "loottable",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hoglin_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/hoglin.json"
+        ]
+      },
+      "path": "~/Loot Tables/Hostile"
+    },
+    {
+      "name": "HuskLoot",
+      "type": "loottable",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "husk_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/husk.json"
+        ]
+      },
+      "path": "~/Loot Tables/Hostile"
+    },
+    {
+      "name": "PhantomLoot",
+      "type": "loottable",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phantom_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/phantom.json"
+        ]
+      },
+      "path": "~/Loot Tables/Hostile"
+    },
+    {
+      "name": "PiglinBruteLoot",
+      "type": "loottable",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piglin_brute_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/piglin_brute.json"
+        ]
+      },
+      "path": "~/Loot Tables/Hostile"
+    },
+    {
+      "name": "PillagerLoot",
+      "type": "loottable",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pillager_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/pillager.json"
+        ]
+      },
+      "path": "~/Loot Tables/Hostile"
+    },
+    {
+      "name": "RavagerLoot",
+      "type": "loottable",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ravager_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/ravager.json"
+        ]
+      },
+      "path": "~/Loot Tables/Hostile"
+    },
+    {
+      "name": "ShulkerLoot",
+      "type": "loottable",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shulker_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/shulker.json"
+        ]
+      },
+      "path": "~/Loot Tables/Hostile"
+    },
+    {
+      "name": "SilverfishLoot",
+      "type": "loottable",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silverfish_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/silverfish.json"
+        ]
+      },
+      "path": "~/Loot Tables/Hostile"
+    },
+    {
+      "name": "VexLoot",
+      "type": "loottable",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vex_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/vex.json"
+        ]
+      },
+      "path": "~/Loot Tables/Hostile"
+    },
+    {
+      "name": "VindicatorLoot",
+      "type": "loottable",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vindicator_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/vindicator.json"
+        ]
+      },
+      "path": "~/Loot Tables/Hostile"
+    },
+    {
+      "name": "WitherSkeletonLoot",
+      "type": "loottable",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_skeleton_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/wither_skeleton.json"
+        ]
+      },
+      "path": "~/Loot Tables/Hostile"
+    },
+    {
+      "name": "ZoglinLoot",
+      "type": "loottable",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zoglin_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/zoglin.json"
+        ]
+      },
+      "path": "~/Loot Tables/Hostile"
+    },
+    {
+      "name": "ZombieLoot",
+      "type": "loottable",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/zombie.json"
+        ]
+      },
+      "path": "~/Loot Tables/Hostile"
+    },
+    {
+      "name": "ZombieVillagerLoot",
+      "type": "loottable",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie_villager_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/zombie_villager.json"
+        ]
+      },
+      "path": "~/Loot Tables/Hostile"
     }
   ],
   "variable_elements": [],
@@ -1852,9 +2062,9 @@
       "item.arcane_heart.cobble_spellpage_item": "Cobblestone Spellpage",
       "item.arcane_heart.bigger_bottle": "Empty Bottle",
       "item.arcane_heart.gravel_spellpage_item": "Gravel Spellpage",
-      "painting.arcane_heart.earth_painting.title": "Earth Painting",
-      "item.arcane_heart.stone_spellpage_item": "Stone Spellpage",
       "gui.arcane_heart.spellbook_gui.button_summon_cobblestone": "Summon Cobblestone",
+      "item.arcane_heart.stone_spellpage_item": "Stone Spellpage",
+      "painting.arcane_heart.earth_painting.title": "Earth Painting",
       "item.arcane_heart.order_mana_drop": "Conflux Of Order",
       "item.arcane_heart.entropy_mana_potion": "Tear of Entropy Potion",
       "item.arcane_heart.water_mana_potion": "Droplet of Water Potion",
@@ -1864,17 +2074,17 @@
       "item.arcane_heart.arcane_mana_drop": "Heart of Mana",
       "painting.arcane_heart.arcane_painting.title": "Arcane Painting",
       "item.arcane_heart.light_spellpage_item": "Magelight Spellpage",
-      "item.arcane_heart.fire_spellpage": "Fire Touch Spellpage",
-      "painting.arcane_heart.entropy_painting.author": "SuperBenji",
       "item.arcane_heart.sandstone_spellpage_item": "Sandstone Spellpage",
+      "painting.arcane_heart.entropy_painting.author": "SuperBenji",
+      "item.arcane_heart.fire_spellpage": "Fire Touch Spellpage",
       "gui.arcane_heart.spellbook_gui.Search": "Search",
       "item.arcane_heart.order_idol": "Idol of Order",
       "block.arcane_heart.arcane_mana": "Arcane Mana",
       "painting.arcane_heart.air_painting.title": "Air Painting",
       "item.arcane_heart.arcane_ring": "Arcane Ring",
       "item.arcane_heart.order_mana_potion": "Conflux of Order Potion",
-      "painting.arcane_heart.fire_painting.title": "Fire Painting",
       "painting.arcane_heart.water_painting.author": "SuperBenji",
+      "painting.arcane_heart.fire_painting.title": "Fire Painting",
       "painting.arcane_heart.order_painting.author": "SuperBenji",
       "item.arcane_heart.fire_mana_drop": "Ember Of Fire",
       "item.arcane_heart.fire_mana_potion": "Ember of Fire Potion",
