@@ -1463,6 +1463,384 @@
         ]
       },
       "path": "~/Loot Tables/Hostile"
+    },
+    {
+      "name": "AllayLoot",
+      "type": "loottable",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allay_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/allay.json"
+        ]
+      },
+      "path": "~/Loot Tables/Passive "
+    },
+    {
+      "name": "AxolotlLoot",
+      "type": "loottable",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axolotl_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/axolotl.json"
+        ]
+      },
+      "path": "~/Loot Tables/Passive "
+    },
+    {
+      "name": "BatLoot",
+      "type": "loottable",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bat_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/bat.json"
+        ]
+      },
+      "path": "~/Loot Tables/Passive "
+    },
+    {
+      "name": "ChickenLoot",
+      "type": "loottable",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chicken_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/chicken.json"
+        ]
+      },
+      "path": "~/Loot Tables/Passive "
+    },
+    {
+      "name": "CodLoot",
+      "type": "loottable",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cod_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/cod.json"
+        ]
+      },
+      "path": "~/Loot Tables/Passive "
+    },
+    {
+      "name": "CowLoot",
+      "type": "loottable",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cow_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/cow.json"
+        ]
+      },
+      "path": "~/Loot Tables/Passive "
+    },
+    {
+      "name": "DonkeyLoot",
+      "type": "loottable",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "donkey_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/donkey.json"
+        ]
+      },
+      "path": "~/Loot Tables/Passive "
+    },
+    {
+      "name": "FoxLoot",
+      "type": "loottable",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fox_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/fox.json"
+        ]
+      },
+      "path": "~/Loot Tables/Passive "
+    },
+    {
+      "name": "FrogLoot",
+      "type": "loottable",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frog_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/frog.json"
+        ]
+      },
+      "path": "~/Loot Tables/Passive "
+    },
+    {
+      "name": "GlowSquidloot",
+      "type": "loottable",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glow_squidloot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/glow_squid.json"
+        ]
+      },
+      "path": "~/Loot Tables/Passive "
+    },
+    {
+      "name": "HorseLoot",
+      "type": "loottable",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horse_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/horse.json"
+        ]
+      },
+      "path": "~/Loot Tables/Passive "
+    },
+    {
+      "name": "MooshroomLoot",
+      "type": "loottable",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mooshroom_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/mooshroom.json"
+        ]
+      },
+      "path": "~/Loot Tables/Passive "
+    },
+    {
+      "name": "MuleLoot",
+      "type": "loottable",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mule_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/mule.json"
+        ]
+      },
+      "path": "~/Loot Tables/Passive "
+    },
+    {
+      "name": "OcelotLoot",
+      "type": "loottable",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ocelot_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/ocelot.json"
+        ]
+      },
+      "path": "~/Loot Tables/Passive "
+    },
+    {
+      "name": "Parrotloot",
+      "type": "loottable",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "parrotloot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/parrot.json"
+        ]
+      },
+      "path": "~/Loot Tables/Passive "
+    },
+    {
+      "name": "PigLoot",
+      "type": "loottable",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcane_heart/loot_tables/entities/pig.json"
+        ]
+      },
+      "path": "~/Loot Tables/Passive "
+    },
+    {
+      "name": "PufferFishLoot",
+      "type": "loottable",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "puffer_fish_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/puffer_fish.json"
+        ]
+      },
+      "path": "~/Loot Tables/Passive "
+    },
+    {
+      "name": "RabbitLoot",
+      "type": "loottable",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rabbit_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/rabbit.json"
+        ]
+      },
+      "path": "~/Loot Tables/Passive "
+    },
+    {
+      "name": "SalmonLoot",
+      "type": "loottable",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salmon_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/salmon.json"
+        ]
+      },
+      "path": "~/Loot Tables/Passive "
+    },
+    {
+      "name": "SheepLoot",
+      "type": "loottable",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sheep_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/sheep.json"
+        ]
+      },
+      "path": "~/Loot Tables/Passive "
+    },
+    {
+      "name": "SkeletonHorseLoot",
+      "type": "loottable",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skeleton_horse_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/skeleton_horse.json"
+        ]
+      },
+      "path": "~/Loot Tables/Passive "
+    },
+    {
+      "name": "SnowGolemLoot",
+      "type": "loottable",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snow_golem_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/snow_golem.json"
+        ]
+      },
+      "path": "~/Loot Tables/Passive "
+    },
+    {
+      "name": "StriderLoot",
+      "type": "loottable",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strider_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/strider.json"
+        ]
+      },
+      "path": "~/Loot Tables/Passive "
+    },
+    {
+      "name": "TadpoleLoot",
+      "type": "loottable",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tadpole_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/tadpole.json"
+        ]
+      },
+      "path": "~/Loot Tables/Passive "
+    },
+    {
+      "name": "TropicalFishLoot",
+      "type": "loottable",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tropical_fish_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/tropical_fish.json"
+        ]
+      },
+      "path": "~/Loot Tables/Passive "
+    },
+    {
+      "name": "TurtleLoot",
+      "type": "loottable",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/turtle.json"
+        ]
+      },
+      "path": "~/Loot Tables/Passive "
+    },
+    {
+      "name": "VillagerLoot",
+      "type": "loottable",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "villager_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/villager.json"
+        ]
+      },
+      "path": "~/Loot Tables/Passive "
     }
   ],
   "variable_elements": [],
@@ -1474,9 +1852,9 @@
       "item.arcane_heart.cobble_spellpage_item": "Cobblestone Spellpage",
       "item.arcane_heart.bigger_bottle": "Empty Bottle",
       "item.arcane_heart.gravel_spellpage_item": "Gravel Spellpage",
-      "gui.arcane_heart.spellbook_gui.button_summon_cobblestone": "Summon Cobblestone",
-      "item.arcane_heart.stone_spellpage_item": "Stone Spellpage",
       "painting.arcane_heart.earth_painting.title": "Earth Painting",
+      "item.arcane_heart.stone_spellpage_item": "Stone Spellpage",
+      "gui.arcane_heart.spellbook_gui.button_summon_cobblestone": "Summon Cobblestone",
       "item.arcane_heart.order_mana_drop": "Conflux Of Order",
       "item.arcane_heart.entropy_mana_potion": "Tear of Entropy Potion",
       "item.arcane_heart.water_mana_potion": "Droplet of Water Potion",
@@ -1486,17 +1864,17 @@
       "item.arcane_heart.arcane_mana_drop": "Heart of Mana",
       "painting.arcane_heart.arcane_painting.title": "Arcane Painting",
       "item.arcane_heart.light_spellpage_item": "Magelight Spellpage",
-      "item.arcane_heart.sandstone_spellpage_item": "Sandstone Spellpage",
-      "painting.arcane_heart.entropy_painting.author": "SuperBenji",
       "item.arcane_heart.fire_spellpage": "Fire Touch Spellpage",
+      "painting.arcane_heart.entropy_painting.author": "SuperBenji",
+      "item.arcane_heart.sandstone_spellpage_item": "Sandstone Spellpage",
       "gui.arcane_heart.spellbook_gui.Search": "Search",
       "item.arcane_heart.order_idol": "Idol of Order",
       "block.arcane_heart.arcane_mana": "Arcane Mana",
       "painting.arcane_heart.air_painting.title": "Air Painting",
       "item.arcane_heart.arcane_ring": "Arcane Ring",
       "item.arcane_heart.order_mana_potion": "Conflux of Order Potion",
-      "painting.arcane_heart.water_painting.author": "SuperBenji",
       "painting.arcane_heart.fire_painting.title": "Fire Painting",
+      "painting.arcane_heart.water_painting.author": "SuperBenji",
       "painting.arcane_heart.order_painting.author": "SuperBenji",
       "item.arcane_heart.fire_mana_drop": "Ember Of Fire",
       "item.arcane_heart.fire_mana_potion": "Ember of Fire Potion",
