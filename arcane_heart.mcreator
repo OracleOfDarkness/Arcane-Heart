@@ -73,7 +73,7 @@
           "src/main/resources/data/arcane_heart/recipes/bigger_bottle_recipe.json"
         ]
       },
-      "path": "~/Items/Recipes"
+      "path": "~/Recipes"
     },
     {
       "name": "EarthManaDrop",
@@ -207,7 +207,7 @@
           "src/main/java/net/mcreator/arcaneheart/recipes/brewing/ArcaneManaPotionBrewingRecipe.java"
         ]
       },
-      "path": "~/Items/Recipes"
+      "path": "~/Recipes"
     },
     {
       "name": "SpellbookGui",
@@ -278,7 +278,7 @@
           "src/main/resources/data/arcane_heart/recipes/cobble_spellpage.json"
         ]
       },
-      "path": "~/Items/Recipes"
+      "path": "~/Recipes"
     },
     {
       "name": "SandSpellpageItem",
@@ -307,7 +307,7 @@
           "src/main/resources/data/arcane_heart/recipes/sand_spellpage.json"
         ]
       },
-      "path": "~/Items/Recipes"
+      "path": "~/Recipes"
     },
     {
       "name": "GravelSpellpageItem",
@@ -336,7 +336,7 @@
           "src/main/resources/data/arcane_heart/recipes/gravel_spellpage.json"
         ]
       },
-      "path": "~/Items/Recipes"
+      "path": "~/Recipes"
     },
     {
       "name": "StoneSpellpageItem",
@@ -365,7 +365,7 @@
           "src/main/resources/data/arcane_heart/recipes/stone_spellpage.json"
         ]
       },
-      "path": "~/Items/Recipes"
+      "path": "~/Recipes"
     },
     {
       "name": "DirtSpellpageItem",
@@ -394,7 +394,7 @@
           "src/main/resources/data/arcane_heart/recipes/dirt_spellpage.json"
         ]
       },
-      "path": "~/Items/Recipes"
+      "path": "~/Recipes"
     },
     {
       "name": "SandstoneSpellpageItem",
@@ -423,7 +423,7 @@
           "src/main/resources/data/arcane_heart/recipes/sandstone_spellpage.json"
         ]
       },
-      "path": "~/Items/Recipes"
+      "path": "~/Recipes"
     },
     {
       "name": "ArcanePainting",
@@ -536,7 +536,7 @@
           "src/main/resources/data/arcane_heart/recipes/light_spellpage.json"
         ]
       },
-      "path": "~/Items/Recipes"
+      "path": "~/Recipes"
     },
     {
       "name": "EarthManaPotion",
@@ -808,7 +808,7 @@
           "src/main/java/net/mcreator/arcaneheart/recipes/brewing/AirManaPotionRecipeBrewingRecipe.java"
         ]
       },
-      "path": "~/Items/Recipes"
+      "path": "~/Recipes"
     },
     {
       "name": "FireManaPotionRecipe",
@@ -822,7 +822,7 @@
           "src/main/java/net/mcreator/arcaneheart/recipes/brewing/FireManaPotionRecipeBrewingRecipe.java"
         ]
       },
-      "path": "~/Items/Recipes"
+      "path": "~/Recipes"
     },
     {
       "name": "WaterManaPotionRecipe",
@@ -836,7 +836,7 @@
           "src/main/java/net/mcreator/arcaneheart/recipes/brewing/WaterManaPotionRecipeBrewingRecipe.java"
         ]
       },
-      "path": "~/Items/Recipes"
+      "path": "~/Recipes"
     },
     {
       "name": "EarthManaPotionRecipe",
@@ -850,7 +850,7 @@
           "src/main/java/net/mcreator/arcaneheart/recipes/brewing/EarthManaPotionRecipeBrewingRecipe.java"
         ]
       },
-      "path": "~/Items/Recipes"
+      "path": "~/Recipes"
     },
     {
       "name": "OrderManaPotionRecipe",
@@ -864,7 +864,7 @@
           "src/main/java/net/mcreator/arcaneheart/recipes/brewing/OrderManaPotionRecipeBrewingRecipe.java"
         ]
       },
-      "path": "~/Items/Recipes"
+      "path": "~/Recipes"
     },
     {
       "name": "EntropyManaPotionRecipe",
@@ -878,7 +878,7 @@
           "src/main/java/net/mcreator/arcaneheart/recipes/brewing/EntropyManaPotionRecipeBrewingRecipe.java"
         ]
       },
-      "path": "~/Items/Recipes"
+      "path": "~/Recipes"
     },
     {
       "name": "LightSpellpageItemRightclickedOnBlock",
@@ -1028,7 +1028,7 @@
           "src/main/resources/data/arcane_heart/recipes/mana_bowl_recipe.json"
         ]
       },
-      "path": "~/Items/Recipes"
+      "path": "~/Recipes"
     },
     {
       "name": "MotarAndPestelRecipe",
@@ -1042,7 +1042,7 @@
           "src/main/resources/data/arcane_heart/recipes/motar_and_pestel_recipe.json"
         ]
       },
-      "path": "~/Items/Recipes"
+      "path": "~/Recipes"
     },
     {
       "name": "BowlOfManaRecipe",
@@ -1056,7 +1056,7 @@
           "src/main/resources/data/arcane_heart/recipes/bowl_of_mana_recipe.json"
         ]
       },
-      "path": "~/Items/Recipes"
+      "path": "~/Recipes"
     },
     {
       "name": "SquidLootTable",
@@ -1191,7 +1191,7 @@
           "src/main/resources/data/arcane_heart/recipes/fire_spellpage_recipe.json"
         ]
       },
-      "path": "~/Items/Recipes"
+      "path": "~/Recipes"
     },
     {
       "name": "DungeonLoot",
@@ -1234,7 +1234,7 @@
           "src/main/resources/data/arcane_heart/recipes/clay_spellpage_recipe.json"
         ]
       },
-      "path": "~/Items/Recipes"
+      "path": "~/Recipes"
     },
     {
       "name": "OrderIdol",
@@ -2219,6 +2219,48 @@
         ]
       },
       "path": "~/Loot Tables/Provokable"
+    },
+    {
+      "name": "ArcaneRingRecipe",
+      "type": "recipe",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arcane_ring_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcane_heart/recipes/arcane_ring_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EntropyRingRecipe",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entropy_ring_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcane_heart/recipes/entropy_ring_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "OrderIdolRecipe",
+      "type": "recipe",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "order_idol_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcane_heart/recipes/order_idol_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -2300,10 +2342,6 @@
             "children": []
           },
           {
-            "name": "Recipes",
-            "children": []
-          },
-          {
             "name": "Earth",
             "children": []
           },
@@ -2377,6 +2415,10 @@
       },
       {
         "name": "Advancments",
+        "children": []
+      },
+      {
+        "name": "Recipes",
         "children": []
       }
     ]
