@@ -2051,6 +2051,174 @@
         ]
       },
       "path": "~/Loot Tables/Hostile"
+    },
+    {
+      "name": "BeeLoot",
+      "type": "loottable",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bee_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/bee.json"
+        ]
+      },
+      "path": "~/Loot Tables/Provokable"
+    },
+    {
+      "name": "CaveSpiderLoot",
+      "type": "loottable",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cave_spider_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/cave_spider.json"
+        ]
+      },
+      "path": "~/Loot Tables/Provokable"
+    },
+    {
+      "name": "DolphinLoot",
+      "type": "loottable",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dolphin_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/dolphin.json"
+        ]
+      },
+      "path": "~/Loot Tables/Provokable"
+    },
+    {
+      "name": "GoatLoot",
+      "type": "loottable",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goat_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/goat.json"
+        ]
+      },
+      "path": "~/Loot Tables/Provokable"
+    },
+    {
+      "name": "IronGolemLoot",
+      "type": "loottable",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_golem_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/iron_golem.json"
+        ]
+      },
+      "path": "~/Loot Tables/Provokable"
+    },
+    {
+      "name": "LlamaLoot",
+      "type": "loottable",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "llama_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/llama.json"
+        ]
+      },
+      "path": "~/Loot Tables/Provokable"
+    },
+    {
+      "name": "PandaLoot",
+      "type": "loottable",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "panda_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/panda.json"
+        ]
+      },
+      "path": "~/Loot Tables/Provokable"
+    },
+    {
+      "name": "PiglinLoot",
+      "type": "loottable",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piglin_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/piglin.json"
+        ]
+      },
+      "path": "~/Loot Tables/Provokable"
+    },
+    {
+      "name": "PolarBearLoot",
+      "type": "loottable",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polar_bear_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/polar_bear.json"
+        ]
+      },
+      "path": "~/Loot Tables/Provokable"
+    },
+    {
+      "name": "SpiderLoot",
+      "type": "loottable",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/spider.json"
+        ]
+      },
+      "path": "~/Loot Tables/Provokable"
+    },
+    {
+      "name": "WolfLoot",
+      "type": "loottable",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wolf_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/wolf.json"
+        ]
+      },
+      "path": "~/Loot Tables/Provokable"
+    },
+    {
+      "name": "ZombifiedPiglinLoot",
+      "type": "loottable",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombified_piglin_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/zombified_piglin.json"
+        ]
+      },
+      "path": "~/Loot Tables/Provokable"
     }
   ],
   "variable_elements": [],
