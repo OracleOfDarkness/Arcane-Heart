@@ -20,12 +20,6 @@ description="Explore the power of mana Locked in the World"
     side="BOTH"
 
 
-[[dependencies.arcane_heart]]
-    modId="mcreator_link"
-    mandatory=true
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 
 [[dependencies.arcane_heart]]
     modId="curios_api"

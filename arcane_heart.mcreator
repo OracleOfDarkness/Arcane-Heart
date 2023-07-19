@@ -947,76 +947,6 @@
       "path": "~/Items/Tools"
     },
     {
-      "name": "EndermanLoot",
-      "type": "loottable",
-      "sortid": 66,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "enderman_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/enderman.json"
-        ]
-      },
-      "path": "~/Loot Tables/Provokable"
-    },
-    {
-      "name": "CreeperLoot",
-      "type": "loottable",
-      "sortid": 67,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "creeper_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/creeper.json"
-        ]
-      },
-      "path": "~/Loot Tables/Hostile"
-    },
-    {
-      "name": "ElderGuardianLoot",
-      "type": "loottable",
-      "sortid": 68,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "elder_guardian_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/elder_guardian.json"
-        ]
-      },
-      "path": "~/Loot Tables/Hostile"
-    },
-    {
-      "name": "GuardianLoot",
-      "type": "loottable",
-      "sortid": 69,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "guardian_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/guardian.json"
-        ]
-      },
-      "path": "~/Loot Tables/Hostile"
-    },
-    {
-      "name": "MagmaCubeLoot",
-      "type": "loottable",
-      "sortid": 70,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "magma_cube_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/magma_cube.json"
-        ]
-      },
-      "path": "~/Loot Tables/Hostile"
-    },
-    {
       "name": "ManaBowlRecipe",
       "type": "recipe",
       "sortid": 71,
@@ -1057,76 +987,6 @@
         ]
       },
       "path": "~/Recipes"
-    },
-    {
-      "name": "SquidLootTable",
-      "type": "loottable",
-      "sortid": 74,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "squid_loot_table",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/squid.json"
-        ]
-      },
-      "path": "~/Loot Tables/Passive "
-    },
-    {
-      "name": "StrayLoot",
-      "type": "loottable",
-      "sortid": 75,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stray_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/stray.json"
-        ]
-      },
-      "path": "~/Loot Tables/Hostile"
-    },
-    {
-      "name": "SlimeLoot",
-      "type": "loottable",
-      "sortid": 76,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "slime_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/slime.json"
-        ]
-      },
-      "path": "~/Loot Tables/Hostile"
-    },
-    {
-      "name": "SkeletonLoot",
-      "type": "loottable",
-      "sortid": 77,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "skeleton_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/skeleton.json"
-        ]
-      },
-      "path": "~/Loot Tables/Hostile"
-    },
-    {
-      "name": "WitchLoot",
-      "type": "loottable",
-      "sortid": 78,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "witch_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/witch.json"
-        ]
-      },
-      "path": "~/Loot Tables/Hostile"
     },
     {
       "name": "FireSpellpageRightclickedOnBlock",
@@ -1409,818 +1269,6 @@
       "path": "~/Procedures"
     },
     {
-      "name": "BlazeLoot",
-      "type": "loottable",
-      "sortid": 94,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blaze_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/blaze.json"
-        ]
-      },
-      "path": "~/Loot Tables/Hostile"
-    },
-    {
-      "name": "DrownedLoot",
-      "type": "loottable",
-      "sortid": 95,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "drowned_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/drowned.json"
-        ]
-      },
-      "path": "~/Loot Tables/Hostile"
-    },
-    {
-      "name": "EndermiteLoot",
-      "type": "loottable",
-      "sortid": 96,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "endermite_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/endermite.json"
-        ]
-      },
-      "path": "~/Loot Tables/Hostile"
-    },
-    {
-      "name": "EvokerLoot",
-      "type": "loottable",
-      "sortid": 97,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "evoker_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/evoker.json"
-        ]
-      },
-      "path": "~/Loot Tables/Hostile"
-    },
-    {
-      "name": "AllayLoot",
-      "type": "loottable",
-      "sortid": 98,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "allay_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/allay.json"
-        ]
-      },
-      "path": "~/Loot Tables/Passive "
-    },
-    {
-      "name": "AxolotlLoot",
-      "type": "loottable",
-      "sortid": 99,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "axolotl_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/axolotl.json"
-        ]
-      },
-      "path": "~/Loot Tables/Passive "
-    },
-    {
-      "name": "BatLoot",
-      "type": "loottable",
-      "sortid": 100,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bat_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/bat.json"
-        ]
-      },
-      "path": "~/Loot Tables/Passive "
-    },
-    {
-      "name": "ChickenLoot",
-      "type": "loottable",
-      "sortid": 101,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "chicken_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/chicken.json"
-        ]
-      },
-      "path": "~/Loot Tables/Passive "
-    },
-    {
-      "name": "CodLoot",
-      "type": "loottable",
-      "sortid": 102,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cod_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/cod.json"
-        ]
-      },
-      "path": "~/Loot Tables/Passive "
-    },
-    {
-      "name": "CowLoot",
-      "type": "loottable",
-      "sortid": 103,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cow_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/cow.json"
-        ]
-      },
-      "path": "~/Loot Tables/Passive "
-    },
-    {
-      "name": "DonkeyLoot",
-      "type": "loottable",
-      "sortid": 104,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "donkey_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/donkey.json"
-        ]
-      },
-      "path": "~/Loot Tables/Passive "
-    },
-    {
-      "name": "FoxLoot",
-      "type": "loottable",
-      "sortid": 105,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fox_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/fox.json"
-        ]
-      },
-      "path": "~/Loot Tables/Passive "
-    },
-    {
-      "name": "FrogLoot",
-      "type": "loottable",
-      "sortid": 106,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "frog_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/frog.json"
-        ]
-      },
-      "path": "~/Loot Tables/Passive "
-    },
-    {
-      "name": "GlowSquidloot",
-      "type": "loottable",
-      "sortid": 107,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "glow_squidloot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/glow_squid.json"
-        ]
-      },
-      "path": "~/Loot Tables/Passive "
-    },
-    {
-      "name": "HorseLoot",
-      "type": "loottable",
-      "sortid": 108,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "horse_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/horse.json"
-        ]
-      },
-      "path": "~/Loot Tables/Passive "
-    },
-    {
-      "name": "MooshroomLoot",
-      "type": "loottable",
-      "sortid": 109,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mooshroom_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/mooshroom.json"
-        ]
-      },
-      "path": "~/Loot Tables/Passive "
-    },
-    {
-      "name": "MuleLoot",
-      "type": "loottable",
-      "sortid": 110,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mule_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/mule.json"
-        ]
-      },
-      "path": "~/Loot Tables/Passive "
-    },
-    {
-      "name": "OcelotLoot",
-      "type": "loottable",
-      "sortid": 111,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ocelot_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/ocelot.json"
-        ]
-      },
-      "path": "~/Loot Tables/Passive "
-    },
-    {
-      "name": "Parrotloot",
-      "type": "loottable",
-      "sortid": 112,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "parrotloot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/parrot.json"
-        ]
-      },
-      "path": "~/Loot Tables/Passive "
-    },
-    {
-      "name": "PigLoot",
-      "type": "loottable",
-      "sortid": 113,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pig_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/arcane_heart/loot_tables/entities/pig.json"
-        ]
-      },
-      "path": "~/Loot Tables/Passive "
-    },
-    {
-      "name": "PufferFishLoot",
-      "type": "loottable",
-      "sortid": 114,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "puffer_fish_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/puffer_fish.json"
-        ]
-      },
-      "path": "~/Loot Tables/Passive "
-    },
-    {
-      "name": "RabbitLoot",
-      "type": "loottable",
-      "sortid": 115,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rabbit_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/rabbit.json"
-        ]
-      },
-      "path": "~/Loot Tables/Passive "
-    },
-    {
-      "name": "SalmonLoot",
-      "type": "loottable",
-      "sortid": 116,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "salmon_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/salmon.json"
-        ]
-      },
-      "path": "~/Loot Tables/Passive "
-    },
-    {
-      "name": "SheepLoot",
-      "type": "loottable",
-      "sortid": 117,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sheep_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/sheep.json"
-        ]
-      },
-      "path": "~/Loot Tables/Passive "
-    },
-    {
-      "name": "SkeletonHorseLoot",
-      "type": "loottable",
-      "sortid": 118,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "skeleton_horse_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/skeleton_horse.json"
-        ]
-      },
-      "path": "~/Loot Tables/Passive "
-    },
-    {
-      "name": "SnowGolemLoot",
-      "type": "loottable",
-      "sortid": 119,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "snow_golem_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/snow_golem.json"
-        ]
-      },
-      "path": "~/Loot Tables/Passive "
-    },
-    {
-      "name": "StriderLoot",
-      "type": "loottable",
-      "sortid": 120,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "strider_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/strider.json"
-        ]
-      },
-      "path": "~/Loot Tables/Passive "
-    },
-    {
-      "name": "TadpoleLoot",
-      "type": "loottable",
-      "sortid": 121,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tadpole_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/tadpole.json"
-        ]
-      },
-      "path": "~/Loot Tables/Passive "
-    },
-    {
-      "name": "TropicalFishLoot",
-      "type": "loottable",
-      "sortid": 122,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tropical_fish_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/tropical_fish.json"
-        ]
-      },
-      "path": "~/Loot Tables/Passive "
-    },
-    {
-      "name": "TurtleLoot",
-      "type": "loottable",
-      "sortid": 123,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "turtle_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/turtle.json"
-        ]
-      },
-      "path": "~/Loot Tables/Passive "
-    },
-    {
-      "name": "VillagerLoot",
-      "type": "loottable",
-      "sortid": 124,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "villager_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/villager.json"
-        ]
-      },
-      "path": "~/Loot Tables/Passive "
-    },
-    {
-      "name": "GhastLoot",
-      "type": "loottable",
-      "sortid": 125,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ghast_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/ghast.json"
-        ]
-      },
-      "path": "~/Loot Tables/Hostile"
-    },
-    {
-      "name": "HoglinLoot",
-      "type": "loottable",
-      "sortid": 126,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hoglin_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/hoglin.json"
-        ]
-      },
-      "path": "~/Loot Tables/Hostile"
-    },
-    {
-      "name": "HuskLoot",
-      "type": "loottable",
-      "sortid": 127,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "husk_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/husk.json"
-        ]
-      },
-      "path": "~/Loot Tables/Hostile"
-    },
-    {
-      "name": "PhantomLoot",
-      "type": "loottable",
-      "sortid": 128,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "phantom_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/phantom.json"
-        ]
-      },
-      "path": "~/Loot Tables/Hostile"
-    },
-    {
-      "name": "PiglinBruteLoot",
-      "type": "loottable",
-      "sortid": 129,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "piglin_brute_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/piglin_brute.json"
-        ]
-      },
-      "path": "~/Loot Tables/Hostile"
-    },
-    {
-      "name": "PillagerLoot",
-      "type": "loottable",
-      "sortid": 130,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pillager_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/pillager.json"
-        ]
-      },
-      "path": "~/Loot Tables/Hostile"
-    },
-    {
-      "name": "RavagerLoot",
-      "type": "loottable",
-      "sortid": 131,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ravager_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/ravager.json"
-        ]
-      },
-      "path": "~/Loot Tables/Hostile"
-    },
-    {
-      "name": "ShulkerLoot",
-      "type": "loottable",
-      "sortid": 132,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "shulker_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/shulker.json"
-        ]
-      },
-      "path": "~/Loot Tables/Hostile"
-    },
-    {
-      "name": "SilverfishLoot",
-      "type": "loottable",
-      "sortid": 133,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "silverfish_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/silverfish.json"
-        ]
-      },
-      "path": "~/Loot Tables/Hostile"
-    },
-    {
-      "name": "VexLoot",
-      "type": "loottable",
-      "sortid": 134,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vex_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/vex.json"
-        ]
-      },
-      "path": "~/Loot Tables/Hostile"
-    },
-    {
-      "name": "VindicatorLoot",
-      "type": "loottable",
-      "sortid": 135,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vindicator_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/vindicator.json"
-        ]
-      },
-      "path": "~/Loot Tables/Hostile"
-    },
-    {
-      "name": "WitherSkeletonLoot",
-      "type": "loottable",
-      "sortid": 136,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wither_skeleton_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/wither_skeleton.json"
-        ]
-      },
-      "path": "~/Loot Tables/Hostile"
-    },
-    {
-      "name": "ZoglinLoot",
-      "type": "loottable",
-      "sortid": 137,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "zoglin_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/zoglin.json"
-        ]
-      },
-      "path": "~/Loot Tables/Hostile"
-    },
-    {
-      "name": "ZombieLoot",
-      "type": "loottable",
-      "sortid": 138,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "zombie_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/zombie.json"
-        ]
-      },
-      "path": "~/Loot Tables/Hostile"
-    },
-    {
-      "name": "ZombieVillagerLoot",
-      "type": "loottable",
-      "sortid": 139,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "zombie_villager_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/zombie_villager.json"
-        ]
-      },
-      "path": "~/Loot Tables/Hostile"
-    },
-    {
-      "name": "BeeLoot",
-      "type": "loottable",
-      "sortid": 140,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bee_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/bee.json"
-        ]
-      },
-      "path": "~/Loot Tables/Provokable"
-    },
-    {
-      "name": "CaveSpiderLoot",
-      "type": "loottable",
-      "sortid": 141,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cave_spider_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/cave_spider.json"
-        ]
-      },
-      "path": "~/Loot Tables/Provokable"
-    },
-    {
-      "name": "DolphinLoot",
-      "type": "loottable",
-      "sortid": 142,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dolphin_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/dolphin.json"
-        ]
-      },
-      "path": "~/Loot Tables/Provokable"
-    },
-    {
-      "name": "GoatLoot",
-      "type": "loottable",
-      "sortid": 143,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "goat_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/goat.json"
-        ]
-      },
-      "path": "~/Loot Tables/Provokable"
-    },
-    {
-      "name": "IronGolemLoot",
-      "type": "loottable",
-      "sortid": 144,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "iron_golem_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/iron_golem.json"
-        ]
-      },
-      "path": "~/Loot Tables/Provokable"
-    },
-    {
-      "name": "LlamaLoot",
-      "type": "loottable",
-      "sortid": 145,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "llama_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/llama.json"
-        ]
-      },
-      "path": "~/Loot Tables/Provokable"
-    },
-    {
-      "name": "PandaLoot",
-      "type": "loottable",
-      "sortid": 146,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "panda_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/panda.json"
-        ]
-      },
-      "path": "~/Loot Tables/Provokable"
-    },
-    {
-      "name": "PiglinLoot",
-      "type": "loottable",
-      "sortid": 147,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "piglin_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/piglin.json"
-        ]
-      },
-      "path": "~/Loot Tables/Provokable"
-    },
-    {
-      "name": "PolarBearLoot",
-      "type": "loottable",
-      "sortid": 148,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "polar_bear_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/polar_bear.json"
-        ]
-      },
-      "path": "~/Loot Tables/Provokable"
-    },
-    {
-      "name": "SpiderLoot",
-      "type": "loottable",
-      "sortid": 149,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "spider_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/spider.json"
-        ]
-      },
-      "path": "~/Loot Tables/Provokable"
-    },
-    {
-      "name": "WolfLoot",
-      "type": "loottable",
-      "sortid": 150,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wolf_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/wolf.json"
-        ]
-      },
-      "path": "~/Loot Tables/Provokable"
-    },
-    {
-      "name": "ZombifiedPiglinLoot",
-      "type": "loottable",
-      "sortid": 151,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "zombified_piglin_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/loot_tables/entities/zombified_piglin.json"
-        ]
-      },
-      "path": "~/Loot Tables/Provokable"
-    },
-    {
       "name": "ArcaneRingRecipe",
       "type": "recipe",
       "sortid": 152,
@@ -2261,6 +1309,104 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "BlazeDrops",
+      "type": "loottable",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blaze_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcane_heart/loot_tables/entities/blaze.json"
+        ]
+      },
+      "path": "~/Loot Tables/Hostile"
+    },
+    {
+      "name": "CreeperDrops",
+      "type": "loottable",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creeper_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcane_heart/loot_tables/entities/creeper.json"
+        ]
+      },
+      "path": "~/Loot Tables/Hostile"
+    },
+    {
+      "name": "DrownedDrops",
+      "type": "loottable",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drowned_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcane_heart/loot_tables/entities/drowned.json"
+        ]
+      },
+      "path": "~/Loot Tables/Hostile"
+    },
+    {
+      "name": "ElderGaurdianDrops",
+      "type": "loottable",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elder_gaurdian_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcane_heart/loot_tables/entities/elder_gaurdian.json"
+        ]
+      },
+      "path": "~/Loot Tables/Hostile"
+    },
+    {
+      "name": "EndermiteDrops",
+      "type": "loottable",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endermite_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcane_heart/loot_tables/entities/endermite.json"
+        ]
+      },
+      "path": "~/Loot Tables/Hostile"
+    },
+    {
+      "name": "EvokerDrops",
+      "type": "loottable",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evoker_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcane_heart/loot_tables/entities/evoker.json"
+        ]
+      },
+      "path": "~/Loot Tables/Hostile"
+    },
+    {
+      "name": "SlimeDrops",
+      "type": "loottable",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/arcane_heart/loot_tables/entities/slime.json"
+        ]
+      },
+      "path": "~/Loot Tables/Hostile"
     }
   ],
   "variable_elements": [],
@@ -2272,9 +1418,9 @@
       "item.arcane_heart.cobble_spellpage_item": "Cobblestone Spellpage",
       "item.arcane_heart.bigger_bottle": "Empty Bottle",
       "item.arcane_heart.gravel_spellpage_item": "Gravel Spellpage",
-      "painting.arcane_heart.earth_painting.title": "Earth Painting",
-      "item.arcane_heart.stone_spellpage_item": "Stone Spellpage",
       "gui.arcane_heart.spellbook_gui.button_summon_cobblestone": "Summon Cobblestone",
+      "item.arcane_heart.stone_spellpage_item": "Stone Spellpage",
+      "painting.arcane_heart.earth_painting.title": "Earth Painting",
       "item.arcane_heart.order_mana_drop": "Conflux Of Order",
       "item.arcane_heart.entropy_mana_potion": "Tear of Entropy Potion",
       "item.arcane_heart.water_mana_potion": "Droplet of Water Potion",
@@ -2284,17 +1430,17 @@
       "item.arcane_heart.arcane_mana_drop": "Heart of Mana",
       "painting.arcane_heart.arcane_painting.title": "Arcane Painting",
       "item.arcane_heart.light_spellpage_item": "Magelight Spellpage",
-      "item.arcane_heart.fire_spellpage": "Fire Touch Spellpage",
-      "painting.arcane_heart.entropy_painting.author": "SuperBenji",
       "item.arcane_heart.sandstone_spellpage_item": "Sandstone Spellpage",
+      "painting.arcane_heart.entropy_painting.author": "SuperBenji",
+      "item.arcane_heart.fire_spellpage": "Fire Touch Spellpage",
       "gui.arcane_heart.spellbook_gui.Search": "Search",
       "item.arcane_heart.order_idol": "Idol of Order",
       "block.arcane_heart.arcane_mana": "Arcane Mana",
       "painting.arcane_heart.air_painting.title": "Air Painting",
       "item.arcane_heart.arcane_ring": "Arcane Ring",
       "item.arcane_heart.order_mana_potion": "Conflux of Order Potion",
-      "painting.arcane_heart.fire_painting.title": "Fire Painting",
       "painting.arcane_heart.water_painting.author": "SuperBenji",
+      "painting.arcane_heart.fire_painting.title": "Fire Painting",
       "painting.arcane_heart.order_painting.author": "SuperBenji",
       "item.arcane_heart.fire_mana_drop": "Ember Of Fire",
       "item.arcane_heart.fire_mana_potion": "Ember of Fire Potion",
@@ -2439,7 +1585,6 @@
     "dependants": [],
     "mcreatorDependencies": [
       "curios_api",
-      "mcreator_link",
       "geckolib"
     ],
     "currentGenerator": "forge-1.19.4",
