@@ -2,14 +2,14 @@
   "_fv": 43,
   "_type": "musicdisc",
   "definition": {
-    "name": "Endies Remix",
+    "name": "Endie's Rave",
     "texture": "endie_disk",
-    "description": "A Remix of C418's Figure 8 By Endie Dreamcatcer",
+    "description": "A Remix of C418's Figure 8 By Endie Dreamcatcher",
     "creativeTab": {
       "value": "CUSTOM:ArcaneHeart"
     },
     "specialInfo": [
-      "A Remix of C418's Figure 8 By Endie Dreamcatcer"
+      "Rave Mix By Endie Dreamcatcher"
     ],
     "hasGlow": true,
     "music": {

@@ -30,6 +30,6 @@ public class EndiesRemixItem extends RecordItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(Component.literal("A Remix of C418's Figure 8 By Endie Dreamcatcer"));
+		list.add(Component.literal("Rave Mix By Endie Dreamcatcher"));
 	}
 }
