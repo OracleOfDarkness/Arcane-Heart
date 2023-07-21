@@ -1,0 +1,9 @@
+{
+  "parent": "arcane_heart:custom/magelight",
+  "textures": {
+    "all": "arcane_heart:block/magelight",
+    "particle": "arcane_heart:block/magelight",
+    "1": "arcane_heart:block/magelight"
+  },
+  "render_type": "translucent"
+}

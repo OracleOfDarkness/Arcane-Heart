@@ -42,6 +42,7 @@ public class ArcaneHeartModTabs {
 					tabData.accept(ArcaneHeartModItems.ENTROPY_RING.get());
 					tabData.accept(ArcaneHeartModItems.ARCANE_RING.get());
 					tabData.accept(ArcaneHeartModItems.ENDIES_REMIX.get());
+					tabData.accept(ArcaneHeartModBlocks.MAGELIGHT.get().asItem());
 				})
 
 		);

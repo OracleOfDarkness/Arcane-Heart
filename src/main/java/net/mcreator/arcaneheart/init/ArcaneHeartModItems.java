@@ -8,7 +8,9 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.arcaneheart.item.WaterManaPotionItem;
 import net.mcreator.arcaneheart.item.WaterManaDropItem;
@@ -80,4 +82,9 @@ public class ArcaneHeartModItems {
 	public static final RegistryObject<Item> ENTROPY_RING = REGISTRY.register("entropy_ring", () -> new EntropyRingItem());
 	public static final RegistryObject<Item> ARCANE_RING = REGISTRY.register("arcane_ring", () -> new ArcaneRingItem());
 	public static final RegistryObject<Item> ENDIES_REMIX = REGISTRY.register("endies_remix", () -> new EndiesRemixItem());
+	public static final RegistryObject<Item> MAGELIGHT = block(ArcaneHeartModBlocks.MAGELIGHT);
+
+	private static RegistryObject<Item> block(RegistryObject<Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
 }
