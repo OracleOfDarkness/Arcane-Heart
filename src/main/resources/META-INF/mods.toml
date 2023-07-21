@@ -4,12 +4,12 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="arcane_heart"
-version="0.030.0"
+version="0.030.1"
 displayName="Arcane Heart"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://modrinth.com/mod/arcane-heart https://mcreator.net"
 logoFile="logo.png"
-authors="OracleOfDarkness, SuperBenji9, MCreator"
+authors="OracleOfDarkness, SuperBenji99"
 description="Explore the power of mana Locked in the World"
 
 [[dependencies.arcane_heart]]
