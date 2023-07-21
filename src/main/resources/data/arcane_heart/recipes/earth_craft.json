@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "mana_recipes",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "arcane_heart:arcane_mana_drop"
+    },
+    {
+      "tag": "forge:stone"
+    }
+  ],
+  "result": {
+    "item": "arcane_heart:earth_mana_drop",
+    "count": 1
+  }
+}

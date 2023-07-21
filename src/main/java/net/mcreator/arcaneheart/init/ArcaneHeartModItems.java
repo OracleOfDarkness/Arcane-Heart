@@ -29,6 +29,7 @@ import net.mcreator.arcaneheart.item.FireManaDropItem;
 import net.mcreator.arcaneheart.item.EntropyRingItem;
 import net.mcreator.arcaneheart.item.EntropyManaPotionItem;
 import net.mcreator.arcaneheart.item.EntropyManaDropItem;
+import net.mcreator.arcaneheart.item.EndiesRemixItem;
 import net.mcreator.arcaneheart.item.EarthManaPotionItem;
 import net.mcreator.arcaneheart.item.EarthManaDropItem;
 import net.mcreator.arcaneheart.item.DirtSpellpageItemItem;
@@ -78,4 +79,5 @@ public class ArcaneHeartModItems {
 	public static final RegistryObject<Item> ORDER_IDOL = REGISTRY.register("order_idol", () -> new OrderIdolItem());
 	public static final RegistryObject<Item> ENTROPY_RING = REGISTRY.register("entropy_ring", () -> new EntropyRingItem());
 	public static final RegistryObject<Item> ARCANE_RING = REGISTRY.register("arcane_ring", () -> new ArcaneRingItem());
+	public static final RegistryObject<Item> ENDIES_REMIX = REGISTRY.register("endies_remix", () -> new EndiesRemixItem());
 }

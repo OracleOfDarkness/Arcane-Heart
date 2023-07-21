@@ -1311,106 +1311,129 @@
       "path": "~/Recipes"
     },
     {
-      "name": "BlazeDrops",
-      "type": "loottable",
+      "name": "ManaCraft",
+      "type": "recipe",
       "sortid": 155,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blaze_drops",
+      "registry_name": "mana_craft",
       "metadata": {
         "files": [
-          "src/main/resources/data/arcane_heart/loot_tables/entities/blaze.json"
+          "src/main/resources/data/arcane_heart/recipes/mana_craft.json"
         ]
       },
-      "path": "~/Loot Tables/Hostile"
+      "path": "~/Recipes"
     },
     {
-      "name": "CreeperDrops",
-      "type": "loottable",
+      "name": "FireCraft",
+      "type": "recipe",
       "sortid": 156,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "creeper_drops",
+      "registry_name": "fire_craft",
       "metadata": {
         "files": [
-          "src/main/resources/data/arcane_heart/loot_tables/entities/creeper.json"
+          "src/main/resources/data/arcane_heart/recipes/fire_craft.json"
         ]
       },
-      "path": "~/Loot Tables/Hostile"
+      "path": "~/Recipes"
     },
     {
-      "name": "DrownedDrops",
-      "type": "loottable",
+      "name": "WaterCraft",
+      "type": "recipe",
       "sortid": 157,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "drowned_drops",
+      "registry_name": "water_craft",
       "metadata": {
         "files": [
-          "src/main/resources/data/arcane_heart/loot_tables/entities/drowned.json"
+          "src/main/resources/data/arcane_heart/recipes/water_craft.json"
         ]
       },
-      "path": "~/Loot Tables/Hostile"
+      "path": "~/Recipes"
     },
     {
-      "name": "ElderGaurdianDrops",
-      "type": "loottable",
+      "name": "EarthCraft",
+      "type": "recipe",
       "sortid": 158,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "elder_gaurdian_drops",
+      "registry_name": "earth_craft",
       "metadata": {
         "files": [
-          "src/main/resources/data/arcane_heart/loot_tables/entities/elder_gaurdian.json"
+          "src/main/resources/data/arcane_heart/recipes/earth_craft.json"
         ]
       },
-      "path": "~/Loot Tables/Hostile"
+      "path": "~/Recipes"
     },
     {
-      "name": "EndermiteDrops",
-      "type": "loottable",
+      "name": "AirCraft",
+      "type": "recipe",
       "sortid": 159,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "endermite_drops",
+      "registry_name": "air_craft",
       "metadata": {
         "files": [
-          "src/main/resources/data/arcane_heart/loot_tables/entities/endermite.json"
+          "src/main/resources/data/arcane_heart/recipes/air_craft.json"
         ]
       },
-      "path": "~/Loot Tables/Hostile"
+      "path": "~/Recipes"
     },
     {
-      "name": "EvokerDrops",
-      "type": "loottable",
+      "name": "OrderCraft",
+      "type": "recipe",
       "sortid": 160,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "evoker_drops",
+      "registry_name": "order_craft",
       "metadata": {
         "files": [
-          "src/main/resources/data/arcane_heart/loot_tables/entities/evoker.json"
+          "src/main/resources/data/arcane_heart/recipes/order_craft.json"
         ]
       },
-      "path": "~/Loot Tables/Hostile"
+      "path": "~/Recipes"
     },
     {
-      "name": "SlimeDrops",
-      "type": "loottable",
+      "name": "EntropyCraft",
+      "type": "recipe",
       "sortid": 161,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "slime_drops",
+      "registry_name": "entropy_craft",
       "metadata": {
         "files": [
-          "src/main/resources/data/arcane_heart/loot_tables/entities/slime.json"
+          "src/main/resources/data/arcane_heart/recipes/entropy_craft.json"
         ]
       },
-      "path": "~/Loot Tables/Hostile"
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EndiesRemix",
+      "type": "musicdisc",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endies_remix",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/arcane_heart/models/item/endies_remix.json",
+          "src/main/java/net/mcreator/arcaneheart/item/EndiesRemixItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "endies_remix_figure_8",
+      "files": [
+        "figure_8_by_c418_rave_cut-endie_edition"
+      ],
+      "category": "music",
+      "subtitle": "Endie"
+    }
+  ],
   "language_map": {
     "en_us": {
       "item.arcane_heart.entropy_ring": "Entropy Ring",
@@ -1451,9 +1474,11 @@
       "item_group.arcane_heart.arcane_heart": "Arcane Heart",
       "item.arcane_heart.mortar_pestle": "Mortar \u0026 Pestle",
       "gui.arcane_heart.spellbook_gui.label_superbenji": "SuperBenji",
+      "subtitles.endies_remix_figure_8": "Endie",
       "item.arcane_heart.magic_bowl": "Magic Bowl",
       "fluid.arcane_heart.arcane_mana": "Arcane Mana",
       "gui.arcane_heart.spellbook_gui.label_oracleofdarkness": "OracleOfDarkness",
+      "item.arcane_heart.endies_remix.desc": "A Remix of C418\u0027s Figure 8 By Endie Dreamcatcer",
       "painting.arcane_heart.entropy_painting.title": "Entropy Painting",
       "painting.arcane_heart.order_painting.title": "Order Painting",
       "item.arcane_heart.arcane_mana_bucket": "Arcane Mana Bucket",
@@ -1462,6 +1487,7 @@
       "item.arcane_heart.water_mana_drop": "Droplet of Water",
       "item.arcane_heart.bottle_of_mana": "Bottle Of Mana",
       "item.arcane_heart.bowl_of_mana": "Bowl Of Mana",
+      "item.arcane_heart.endies_remix": "Endies Remix",
       "item.arcane_heart.entropy_mana_drop": "Tear of Entropy",
       "item.arcane_heart.air_mana_drop": "Gust Of Air",
       "painting.arcane_heart.air_painting.author": "SuperBenji",

@@ -31,6 +31,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.arcaneheart.init.ArcaneHeartModSounds;
 import net.mcreator.arcaneheart.init.ArcaneHeartModPaintings;
 import net.mcreator.arcaneheart.init.ArcaneHeartModMenus;
 import net.mcreator.arcaneheart.init.ArcaneHeartModItems;
@@ -55,7 +56,7 @@ public class ArcaneHeartMod {
 	public ArcaneHeartMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		ArcaneHeartModSounds.REGISTRY.register(bus);
 		ArcaneHeartModBlocks.REGISTRY.register(bus);
 		ArcaneHeartModItems.REGISTRY.register(bus);
 

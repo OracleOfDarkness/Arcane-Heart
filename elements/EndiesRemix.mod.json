@@ -1,0 +1,21 @@
+{
+  "_fv": 43,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Endies Remix",
+    "texture": "endie_disk",
+    "description": "A Remix of C418's Figure 8 By Endie Dreamcatcer",
+    "creativeTab": {
+      "value": "CUSTOM:ArcaneHeart"
+    },
+    "specialInfo": [
+      "A Remix of C418's Figure 8 By Endie Dreamcatcer"
+    ],
+    "hasGlow": true,
+    "music": {
+      "value": "CUSTOM:endies_remix_figure_8"
+    },
+    "lengthInTicks": 8080,
+    "analogOutput": 0
+  }
+}

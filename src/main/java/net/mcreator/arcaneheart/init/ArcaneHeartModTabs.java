@@ -41,6 +41,7 @@ public class ArcaneHeartModTabs {
 					tabData.accept(ArcaneHeartModItems.ORDER_IDOL.get());
 					tabData.accept(ArcaneHeartModItems.ENTROPY_RING.get());
 					tabData.accept(ArcaneHeartModItems.ARCANE_RING.get());
+					tabData.accept(ArcaneHeartModItems.ENDIES_REMIX.get());
 				})
 
 		);

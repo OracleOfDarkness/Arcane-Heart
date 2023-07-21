@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "mana_recipes",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "arcane_heart:arcane_mana_drop"
+    },
+    {
+      "item": "minecraft:quartz"
+    }
+  ],
+  "result": {
+    "item": "arcane_heart:order_mana_drop",
+    "count": 1
+  }
+}
