@@ -1,10 +1,12 @@
 {
-  "_fv": 43,
+  "_fv": 47,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "fire_mana_potion",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Ember of Fire Potion",
     "rarity": "COMMON",
     "creativeTab": {

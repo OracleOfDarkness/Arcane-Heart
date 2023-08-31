@@ -11,19 +11,19 @@
       "item": "minecraft:stick"
     },
     "3": {
-      "tag": "forge:stone"
+      "tag": "minecraft:stone"
     },
     "4": {
       "item": "arcane_heart:earth_mana_drop"
     },
     "5": {
-      "tag": "forge:stone"
+      "tag": "minecraft:stone"
     },
     "6": {
       "item": "arcane_heart:arcane_mana_drop"
     },
     "7": {
-      "tag": "forge:stone"
+      "tag": "minecraft:stone"
     },
     "8": {
       "item": "arcane_heart:arcane_mana_drop"

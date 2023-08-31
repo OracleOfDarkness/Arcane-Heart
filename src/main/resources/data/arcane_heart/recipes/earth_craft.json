@@ -4,13 +4,13 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "minecraft:dirt"
+      "tag": "minecraft:dirt"
     },
     {
       "item": "arcane_heart:arcane_mana_drop"
     },
     {
-      "tag": "forge:stone"
+      "tag": "minecraft:stone"
     }
   ],
   "result": {

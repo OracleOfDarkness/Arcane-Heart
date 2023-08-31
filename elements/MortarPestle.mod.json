@@ -1,10 +1,12 @@
 {
-  "_fv": 43,
+  "_fv": 47,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "mortar_and_pestle",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Mortar & Pestle",
     "rarity": "COMMON",
     "creativeTab": {
